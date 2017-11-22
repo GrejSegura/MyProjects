@@ -1,0 +1,1763 @@
+Category Text,Code,Question Text
+Show Registered For,BIG,Big 5
+Show Registered For,MEC,Middle East Concrete and PMV Live
+Short Form Code,MECS,Middle East Concrete and PMV Live Short Form Page
+Short Form Code,BIGS,Big 5 Short Form Page
+Database Management,UPG,Record Upgraded
+Database Management,EXHINVBIG,Invited by Exhibitor
+Database Management,GAIA,Voted for GAIA Awards
+Database Management,DUBAI02,Back Office
+Database Management,VASILEIOS,Back Office
+Database Management,DUBAI03,Back Office
+Database Management,DUBAI09,Back Office
+Database Management,DUBAI10,Back Office
+Database Management,BLANK,Blank Barcode
+Database Management,AWS,Online Server
+Database Management,SVR18,Back Office
+Database Management,SCAN,Scanned at Ebadge
+Database Management,SAMPLE,Sample Record
+Database Management,DNI,Denied Print of Record
+Database Management,UPDATEPC,Print DTCM Barcode on PC Badge
+Database Management,INTONS,Internet Registration during show
+Database Management,MRFGR,Missed our records from gate attendance of Excellence Summit
+Database Management,P16BIG,Pre-registered 2016 for Big 5
+Database Management,P16MEC,Pre-registered 2016 for MEC and PMV Live
+Database Management,INT,Internet Registration
+Database Management,TEST,Test Registrations
+Database Management,PNTD,Record Pre Printed
+Database Management,ORQ,Organizer Request
+Database Management,XXX,Registration Staff
+Database Management,CLEAN,Record Clean
+Database Management,TBP,To Be Printed
+Database Management,DEMO-ROOM,DEMO Room
+Database Management,SYED-HP,Syed HP
+Category,VIP,VIP
+Category,GVIP,Generic VIP
+Category,GVIS,Generic Visitor
+Category,GUEST,Guest
+Category,VIS,Visitor
+Category,DEL,Delegate
+Category,SPK,Speaker
+Category,MED,Media
+Category,EXH,Exhibitor
+Category,EXHONS,Exhibitor Onsite (paid)
+Category,ORG,Organiser
+Category,STU,Student
+Category,NTRAD,Non Trade
+Category,XXX,Registration
+Category,PC,Platinum Club
+Workshop and other Category,WKS,Workshop for Big 5
+Workshop and other Category,MWKS,Workshop for MEC and PMV Live
+Workshop and other Category,HTDB,How to do Business in UAE
+DTCM Codes,DTCM,Date Transacted to DTCM
+DTCM Codes,DTCM-NOT,Transacted to DTCM but rejected
+DTCM Codes,ORDERID,DTCM Order ID
+DTCM Codes,DTCMS,DTCM Successful
+DTCM Codes,DTCMN,DTCM Not Successful
+DTCM Codes,NOSHOW,No Show record - DTCM Recall
+DTCM Codes,ORDERID2,DTCM Second Order id
+DTCM Codes,DRETURN,Record Returned
+DTCM Codes,JAY,"Records to be re-called, transacted to DTCM"
+DTCM Codes,UPDORD,Updated Ordeid
+Recommend a Colleague,INV,Invitor
+Recommend a Colleague,INVE,Invitee
+Recommend a Colleague,IFCN,Registered Invitee
+Show Admission Policy/Terms of Condition,TNC,Please select to confirm you have read and agree to admission policy
+Email Broadcast,EMAIL1,Barcode Email
+Email Broadcast,ESAMPLE,Sample Eshot
+Email Broadcast,EMAIL2,Email Blast for Distributors
+Attendees,ATTD1,Attended On Day 1
+Attendees,ATTD2,Attended On Day 2
+Attendees,ATTD3,Attended On Day 3
+Attendees,ATTD4,Attended on Day 4
+Age Group,1524,15-24
+Age Group,2534,25-34
+Age Group,3544,35-44
+Age Group,4554,45-54
+Age Group,5564,55-64
+Age Group,6500,65+
+Nationality,AF,Afghan
+Nationality,AL,Albanian
+Nationality,DZ,Algerian
+Nationality,US,American
+Nationality,UM,American Islander
+Nationality,AS,American Samoan
+Nationality,AD,Andorran
+Nationality,AO,Angolan
+Nationality,AI,Anguillan
+Nationality,AG,Antiguan / Barbudan
+Nationality,AR,Argentinian
+Nationality,AM,Armenian
+Nationality,AW,Aruban
+Nationality,AU,Australian
+Nationality,AT,Austrian
+Nationality,AZ,Azerbaijani
+Nationality,BS,Bahamian
+Nationality,BH,Bahraini
+Nationality,BD,Bangladeshi
+Nationality,BB,Barbadian
+Nationality,BW,Botswana
+Nationality,BY,Belarusian
+Nationality,BE,Belgian
+Nationality,BZ,Belizean
+Nationality,BJ,Beninese
+Nationality,BM,Bermudian
+Nationality,BT,Bhutanese
+Nationality,GW,Bissau-Guinean
+Nationality,BO,Bolivian
+Nationality,BA,Bosnian / Herzegovinian
+Nationality,BR,Brazilian
+Nationality,GB,British
+Nationality,BN,Bruneian
+Nationality,BG,Bulgarian
+Nationality,BF,Burkinabe
+Nationality,MM,Burmese
+Nationality,BI,Burundian
+Nationality,KH,Cambodian
+Nationality,CM,Cameroonian
+Nationality,CA,Canadian
+Nationality,CV,Cape Verdean
+Nationality,KY,Caymanian
+Nationality,CF,Central African
+Nationality,TD,Chadian
+Nationality,GG,Channel Islander
+Nationality,JE,Channel Islander
+Nationality,CL,Chilean
+Nationality,CN,Chinese
+Nationality,CX,Christmas Islanders
+Nationality,CO,Colombian
+Nationality,KM,Comoran
+Nationality,CG,Congolese
+Nationality,CD,Congolese
+Nationality,CK,Cook Islander
+Nationality,CR,Costa Rican
+Nationality,HR,Croatian
+Nationality,CU,Cuban
+Nationality,CY,Cypriot
+Nationality,CZ,Czech
+Nationality,DK,Danish
+Nationality,DJ,Djiboutian
+Nationality,DM,Dominican
+Nationality,DO,Dominican
+Nationality,NL,Dutch
+Nationality,AN,Dutch Caribean
+Nationality,EC,Ecuadorian
+Nationality,EG,Egyptian
+Nationality,AE,Emirati
+Nationality,GQ,Equatoguinean / Equatorial Guinean
+Nationality,ER,Eritrean
+Nationality,EE,Estonian
+Nationality,ET,Ethiopian
+Nationality,FK,Falkland Islander
+Nationality,FO,Faroese
+Nationality,FJ,Fijian
+Nationality,FI,Finnish
+Nationality,FR,French
+Nationality,TF,French
+Nationality,MQ,French
+Nationality,RE,French
+Nationality,GF,French Guianese
+Nationality,GA,Gabonese
+Nationality,GM,Gambian
+Nationality,GE,Georgian
+Nationality,DE,German
+Nationality,GH,Ghanaian
+Nationality,GI,Gibraltar
+Nationality,GR,Greek
+Nationality,GL,Greenlandic
+Nationality,GD,Grenadian
+Nationality,GU,Guamanian
+Nationality,GT,Guatemalan
+Nationality,GN,Guinean
+Nationality,GY,Guyanese
+Nationality,HT,Haitian
+Nationality,HN,Honduran
+Nationality,HK,Hong Konger
+Nationality,HU,Hungarian
+Nationality,IS,Icelandic
+Nationality,KI,I-Kiribati
+Nationality,IN,Indian
+Nationality,ID,Indonesian
+Nationality,IR,Iranian
+Nationality,IQ,Iraqi
+Nationality,IE,Irish
+Nationality,IT,Italian
+Nationality,CI,Ivoirian
+Nationality,JM,Jamaican
+Nationality,JP,Japanese
+Nationality,JO,Jordanian
+Nationality,KZ,Kazakhstani
+Nationality,KE,Kenyan
+Nationality,KN,Kittitian / Nevisian
+Nationality,XK,Kosovar
+Nationality,KW,Kuwaiti
+Nationality,KG,Kyrgyzstani
+Nationality,LA,Laotian
+Nationality,LV,Latvian
+Nationality,LB,Lebanese
+Nationality,LR,Liberian
+Nationality,LY,Libyan
+Nationality,LI,Liechtenstein
+Nationality,LT,Lithuanian
+Nationality,LU,Luxembourg
+Nationality,MO,Macanese
+Nationality,MK,Macedonian
+Nationality,YT,Mahoran
+Nationality,MG,Malagasy
+Nationality,MW,Malawian
+Nationality,MY,Malaysian
+Nationality,MV,Maldivian
+Nationality,ML,Malian
+Nationality,MT,Maltese
+Nationality,IM,Manx
+Nationality,MH,Marshallese
+Nationality,MR,Mauritanian
+Nationality,MU,Mauritian
+Nationality,MX,Mexican
+Nationality,FM,Micronesian
+Nationality,MD,Moldovan
+Nationality,MC,Monacan
+Nationality,MN,Mongolian
+Nationality,ME,Montenegrin
+Nationality,MS,Montserratian
+Nationality,MA,Moroccan
+Nationality,LS,Mosotho
+Nationality,MZ,Mozambican
+Nationality,NA,Namibian
+Nationality,NR,Nauruan
+Nationality,NP,Nepali
+Nationality,NC,New Caledonian
+Nationality,NZ,New Zealand
+Nationality,NI,Nicaraguan
+Nationality,NG,Nigerian
+Nationality,NE,Nigerien
+Nationality,NU,Niuean
+Nationality,VU,Ni-Vanuatu
+Nationality,KP,North Korean
+Nationality,NO,Norwegian
+Nationality,OM,Omani
+Nationality,PK,Pakistani
+Nationality,PW,Palauan
+Nationality,PS,Palestinian
+Nationality,PA,Panamanian
+Nationality,PG,Papua New Guinean
+Nationality,PY,Paraguayan
+Nationality,PE,Peruvian
+Nationality,PH,Philippine / Filipino
+Nationality,PN,Pitcairn Islanders
+Nationality,PL,Polish
+Nationality,PT,Portuguese
+Nationality,PR,Puerto Rican
+Nationality,QA,Qatari
+Nationality,RO,Romanian
+Nationality,RU,Russian
+Nationality,RW,Rwandan
+Nationality,LC,Saint Lucian
+Nationality,PM,Saint-Pierrais / Miquelonnais
+Nationality,SV,Salvadoran
+Nationality,SM,Sammarinese
+Nationality,WS,Samoan
+Nationality,ST,Sao Tomean
+Nationality,SA,Saudi Arabian
+Nationality,SN,Senegalese
+Nationality,RS,Serbian
+Nationality,SC,Seychellois
+Nationality,SL,Sierra Leonean
+Nationality,SG,Singaporean
+Nationality,SK,Slovakian
+Nationality,SI,Slovenian
+Nationality,SB,Solomon Islander
+Nationality,SO,Somali
+Nationality,ZA,South African
+Nationality,KR,South Korean
+Nationality,SS,South Sudanese
+Nationality,ES,Spanish
+Nationality,LK,Sri Lankan
+Nationality,SD,Sudanese
+Nationality,SR,Surinamese
+Nationality,SJ,Svalbard & Jan Mayen Islanders
+Nationality,SZ,Swazi
+Nationality,SE,Swedish
+Nationality,CH,Swiss
+Nationality,SY,Syrian
+Nationality,TW,Taiwanese
+Nationality,TJ,Tajikistani
+Nationality,TZ,Tanzanian
+Nationality,TH,Thai
+Nationality,TL,Timorese
+Nationality,TG,Togolese
+Nationality,TK,Tokelauan
+Nationality,TO,Tongan
+Nationality,TT,Trinidadian / Tobagonian
+Nationality,TN,Tunisian
+Nationality,TR,Turkish
+Nationality,TM,Turkmen
+Nationality,TC,Turks and Caicos Islander
+Nationality,TV,Tuvaluan
+Nationality,VI,U.S. Virgin Islander
+Nationality,UG,Ugandan
+Nationality,UA,Ukrainian
+Nationality,UY,Uruguayan
+Nationality,UZ,Uzbekistani
+Nationality,VE,Venezuelan
+Nationality,VN,Vietnamese
+Nationality,VC,Vincentian
+Nationality,VB,Virgin Islander
+Nationality,WF,Wallisian / Futunan
+Nationality,YE,Yemeni
+Nationality,ZM,Zambian
+Nationality,ZW,Zimbabwean
+Nationality,NAT,Nationality
+What is your current employment status? - Big5,BFEMP,Employed
+What is your current employment status? - Big5,BFUNE,Unemployed
+What is your current employment status? - Big5,BFSTU,Student
+"While visiting The Big 5, what products will you be mainly looking for?",BF01,MEP Services
+"While visiting The Big 5, what products will you be mainly looking for?",BF06,Other
+"While visiting The Big 5, what products will you be mainly looking for?",BF02,Building Interiors & Finishes
+"While visiting The Big 5, what products will you be mainly looking for?",BF03,Building Envelope & Special Construction
+"While visiting The Big 5, what products will you be mainly looking for?",BF04,Construction Tools & Building Materials
+"While visiting The Big 5, what products will you be mainly looking for?",BF05,Smart Building & Design Technologies
+"While visiting The Big 5, what products will you be mainly looking for? - MEP Services",BF01A,"Heating, Ventilation & Air Conditioning
+"
+"While visiting The Big 5, what products will you be mainly looking for? - MEP Services",BF01B,Plumbing & Water Technology
+"While visiting The Big 5, what products will you be mainly looking for? - MEP Services",BF01C,"Electrical Systems
+"
+"While visiting The Big 5, what products will you be mainly looking for? - MEP Services",BF01D,Security & Fire Protection
+"While visiting The Big 5, what products will you be mainly looking for? - MEP Services",BF01E,Solar Energy
+"While visiting The Big 5, what products will you be mainly looking for? - Building Interiors & Finishes
+",BF02A,"Bathroom, Kitchen & Related Services"
+"While visiting The Big 5, what products will you be mainly looking for? - Building Interiors & Finishes
+",BF02B,"Flooring, Ceiling, Wall Finishes & Other Interior Finishes"
+"While visiting The Big 5, what products will you be mainly looking for? - Building Interiors & Finishes
+",BF02C,Lighting
+"While visiting The Big 5, what products will you be mainly looking for? - Building Interiors & Finishes
+",BF02D,"Sealants, Coatings & Adhesives"
+"While visiting The Big 5, what products will you be mainly looking for? - Building Envelope & Special Construction ",BF03A,"Windows, Doors & Sun Protection Systems"
+"While visiting The Big 5, what products will you be mainly looking for? - Building Envelope & Special Construction ",BF03B,"Roofing, Cladding & Glazing"
+"While visiting The Big 5, what products will you be mainly looking for? - Building Envelope & Special Construction ",BF03C,Special Construction
+"While visiting The Big 5, what products will you be mainly looking for? - Construction Tools & Building Materials",BF04A,Construction Tools & Equipment
+"While visiting The Big 5, what products will you be mainly looking for? - Construction Tools & Building Materials",BF04B,"Metal, Steel & Aluminium"
+"While visiting The Big 5, what products will you be mainly looking for? - Smart Building & Design Technologies",BF05A,Software for Construction
+"While visiting The Big 5, what products will you be mainly looking for? - Smart Building & Design Technologies",BF05B,Design Technologies
+"While visiting The Big 5, what products will you be mainly looking for? - Smart Building & Design Technologies",BF05C,Building Automation
+What is your nature of business? - Big5,BF201,Agent - distributor - supplier
+What is your nature of business? - Big5,BF202,Architectural Firm
+What is your nature of business? - Big5,BF204,Building Consultancy
+What is your nature of business? - Big5,BF205,Cement Supplier
+What is your nature of business? - Big5,BF206,Commercial Services
+What is your nature of business? - Big5,BF208,Contractor
+What is your nature of business? - Big5,BF209,Education & Training
+What is your nature of business? - Big5,BF210,Engineering
+What is your nature of business? - Big5,BF213,Façade Engineering
+What is your nature of business? - Big5,BF214,Facilities Management
+What is your nature of business? - Big5,BF218,Government/Municipality
+What is your nature of business? - Big5,BF252,Interior Design Agency
+What is your nature of business? - Big5,BF219,Interior Design Agency - Other
+What is your nature of business? - Big5,BF223,IT & Software
+What is your nature of business? - Big5,BF224,Landscaping
+What is your nature of business? - Big5,BF227,Manufacturer
+What is your nature of business? - Big5,BF236,MEP Contractor
+What is your nature of business? - Big5,BF238,Property Developer
+What is your nature of business? - Big5,BF241,Repair Contractor
+What is your nature of business? - Big5,BF245,Sub-Contractor
+What is your nature of business? - Big5,BF246,Surveying
+What is your nature of business? - Big5,BF248,Trade Association
+What is your nature of business? - Big5,BF249,Transport & Supply chain
+What is your nature of business? - Big5,BF250,Waste & Recycling
+What is your nature of business? - Big5,BF299,Others
+"Are you a local distributor looking to meet with international exhibitors? - Big5
+",BF71,Yes
+"Are you a local distributor looking to meet with international exhibitors? - Big5
+",BF72,No
+Countries you import to? - Big5,BF71A,UAE
+Countries you import to? - Big5,BF71B,KSA
+Countries you import to? - Big5,BF71C,Kuwait
+Countries you import to? - Big5,BF71D,Oman
+Countries you import to? - Big5,BF71E,Bahrain
+Countries you import to? - Big5,BF71F,Qatar
+Are you a key buyer with direct purchasing authority for your company? - Big5,BF81,Yes
+Are you a key buyer with direct purchasing authority for your company? - Big5,BF82,No
+Direct level of purchasing authority - Big5,BF91,"Up to $50,000"
+Direct level of purchasing authority - Big5,BF92,"Up to $100,000"
+Direct level of purchasing authority - Big5,BF93,"Up to $250,000"
+Direct level of purchasing authority - Big5,BF94,"Up to $500,000"
+Direct level of purchasing authority - Big5,BF95,"Up to $1,000,000"
+Direct level of purchasing authority - Big5,BF96,"Up to $5,000,000"
+Direct level of purchasing authority - Big5,BF97,"Up to $10,000,000"
+Direct level of purchasing authority - Big5,BF98,Up to $25 million
+Direct level of purchasing authority - Big5,BF99,Up to $50 million
+Direct level of purchasing authority - Big5,BF100,Up to $100 million
+Direct level of purchasing authority - Big5,BF101,100 million +
+Direct level of purchasing authority - Big5,BF102,Don't Know
+Direct level of purchasing authority - Big5,BF103,Other
+Direct level of purchasing authority - Big5,BF104,None
+No of Employees - Big5,BF111,0-10
+No of Employees - Big5,BF112,11-50
+No of Employees - Big5,BF113,51-250
+No of Employees - Big5,BF114,251+
+No of Employees - (0-10) - Big5,BF111A,Local
+No of Employees - (0-10) - Big5,BF111B,Regional
+No of Employees - (0-10) - Big5,BF111C,International
+No of Employees - (11-50) - Big5,BF112A,Local
+No of Employees - (11-50) - Big5,BF112B,Regional
+No of Employees - (11-50) - Big5,BF112C,International
+No of Employees - (51-250) - Big5,BF113A,Local
+No of Employees - (51-250) - Big5,BF113B,Regional
+No of Employees - (51-250) - Big5,BF113C,International
+No of Employees - (251+) - Big5,BF114A,Local
+No of Employees - (251+) - Big5,BF114B,Regional
+No of Employees - (251+) - Big5,BF114C,International
+Are you interested in finding out more information about exhibiting? - Big5,BF131,Yes
+Are you interested in finding out more information about exhibiting? - Big5,BF132,No
+Are you interested in other construction events? - Big5,BF141,Yes
+Are you interested in other construction events? - Big5,BF142,No
+Are you interested in other construction events? - Yes -  Big5,BF151,FM Expo Saudi (Jeddah) | 15 – 17 January 2017
+Are you interested in other construction events? - Yes -  Big5,BF167,The Big 5 Kuwait (Onsite Form)
+Are you interested in other construction events? - Yes -  Big5,BF168,The Big 5 East Africa Kenya (Onsite Form)
+Are you interested in other construction events? - Yes -  Big5,BF169,The Big 5 Indonesia (Onsite Form)
+Are you interested in other construction events? - Yes -  Big5,BF170,The Big 5 India (Onsite Forms)
+Are you interested in other construction events? - Yes -  Big5,BF174,None of the above (Onsite Form)
+Are you interested in other construction events? - Yes -  Big5,BF152,HVACR Expo Saudi (Jeddah) | 15 - 17 January 2017
+Are you interested in other construction events? - Yes -  Big5,BF153,The Big 5 Saudi (Jeddah) | 27 - 30 March 2017
+Are you interested in other construction events? - Yes -  Big5,BF154,"Stone & Surface Saudi Expo (Jeddah) | 4 - 6 April, 2017"
+Are you interested in other construction events? - Yes -  Big5,BF155,The Big 5 North Africa (Casablanca) | 25 - 27 April 2017
+Are you interested in other construction events? - Yes -  Big5,BF156,Middle East Covering (Dubai) | 22 - 25 May 2017
+Are you interested in other construction events? - Yes -  Big5,BF157,Middle East Stone (Dubai) |  22 - 25 May 2017
+Are you interested in other construction events? - Yes -  Big5,BF158,Commercial Cleaning & Hygiene (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes -  Big5,BF159,Elevators & Access Control (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes -  Big5,BF160,FM EXPO (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes -  Big5,BF161,Gulf Glass (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes -  Big5,BF162,Intersolar Middle East (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes -  Big5,BF163,Middle East Waste & Recycling (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes -  Big5,BF164,Outdoor Design & Build Show (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes -  Big5,BF165,"Windows, Doors & Facades (Dubai) | 25 - 27 September 2017"
+Are you interested in other construction events? - Yes -  Big5,BF166,The Big 5 (Dubai) | 26 - 29 November 2017
+Are you a manufacturer or distributor? - Big5 Short Form,BF171,Manufacturer
+Are you a manufacturer or distributor? - Big5 Short Form,BF172,Distributor
+Are you a manufacturer or distributor? - Big5 Short Form,BF173,Other
+Subscribe to - Big 5 (Onsite Form) ,BF301,The Big 5 Hub industry weekly newsletter
+Subscribe to - Big 5 (Onsite Form) ,BF302,The Big 5 Hub quarterly magazine
+Other - Big5 (Onsite Form),BF642,Associations
+Other - Big5 (Onsite Form),BF643,Education & Training
+Other - Big5 (Onsite Form),BF644,Government
+Other - Big5 (Onsite Form),BF645,Media
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1A1,Day 1 - 12:00 - 13:00 BIM as information management and design process  
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1A2,Day 1 - 14:00 - 15:00 -  How BIM is transforming the construction industry
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1A3,"Day 1 - 16:00 - 17:00 BIM there, done that"
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1B1,Day 2 - 12:00 - 13:00- BIM for coordination – from concept to construction
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1B2,Day 2 - 14:00 - 15:00 - The BIM 4D modeling through the project life cycle
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1B3,Day 2 - 16:00 - 17:00 - IoT-izing The Construction Industry - 1001 Real Life Case Studies from Around the Globe
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1C1,Day 3 - 12:00 - 13:00 - BIM Case study of office with warehouse
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1C2,Day 3 - 14:00 - 15:00 - Integrating Material and Textural Information for As-Built BIM Using IR Sensing
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1C3,Day 3 - 16:00 - 17:00 - Bim4Analysis
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1D1,Day 4 - 12:00 - 13:00 - What’s wrong with BIM? - Challenges in the Adoption of a new Planning Paradigm
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1D2,Day 4 - 14:00 - 15:00 - How to get the best out of BIM intelligence in design process and taking it forward in construction
+Workshop: Theater 1 - TECHNOLOGY IN CONSTRUCTION,T1D3,Day 4 - 16:00 - 17:00 - BIM for construction 
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2A1,Day 1 - 12:00 - 13:00 - Architectural Advancement: Creating an Iconic Development
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2A2,Day 1 - 14:00 - 15:00 - Adaptive Architecture: convertible structures
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2A3,Day 1 - 16:00 - 17:00 - Improving façade performance through design
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2B1,"Day 2 - 12:00 - 13:00 - Transformation, Translation and Representation"
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2B2,Day 2 - 14:00 - 15:00 - Sustainability Beyond Design 
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2B3,"Day 2 - 16:00 - 17:00 - 
+Smart Construction & Architecture"
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2C1,Day 3 - 12:00 - 13:00 - Efficient and sustainable cooling
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2C2,Day 3 - 14:00 - 15:00 - Significance of MEP - What’s next for District Cooling?
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2C3,Day 3 - 16:00 - 17:00 - Energy Efficient HVAC System's for Healthcare
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2D1,Day 4 - 12:00 - 13:00 - MEP in transport Infrastructure
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2D2,"Day 4 - 14:00 - 15:00 - MEP trade, challenges, trends and solutions"
+Workshop: Theater 2 - ARCHITECTECTURE & MEP SERVICES,T2D3,Day 4 - 16:00 - 17:00 - Comparative Analysis of Traditional Vs. Sustainable Chilled Water Plant Design
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3A1,Day 1 - 12:00 - 13:00 - Condition of assets a growing concern
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3A2,"Day 1 - 14:00 - 15:00 - 
+Good practice during work at quarries"
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3A3,"Day 1 - 16:00 - 17:00 - 
+Driving Culture change through Leadership"
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3B1,Day 2 -  12:00 - 13:00 - All you need to know about the new UAE Fire Code 
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3B2,Day 2 -  14:00 - 15:00 - Defining health and safety leadership behaviours
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3B3,Day 2 -  16:00 - 17:00 - Do complex innovative building envelopes comprise health and safety
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3C1,Day 3 - 12:00 - 13:00 - SCM Contribution to successful project management and analyzing the extensive project pipeline
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3C2,Day 3 - 14:00 - 15:00 - Smart Procurement & Local Manufacturing (Cancelled)
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3C3,Day 3 - 16:00 - 17:00 - IOT & Drones Logistics Technologies in  Construction
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3D1,Day 4 - 12:00 - 13:00 - Supply-chain management in construction industry 
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3D2,Day 4 - 14:00 - 15:00 - Procurement transformation strategies
+Workshop: Theater 3 - EMPHASIS ON SAFETY AND LOGISTICS,T3D3,Day 4 - 16:00 - 17:00 - Logistics planning of construction projects for Expo 2020
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4A1,Day 1 - 12:00 - 13:00 Zero Carbon Buildings: Management of Design and Construction 
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4A2,Day 1 - 14:00 - 15:00 Importance of Reserve Fund Studies in Protecting Property Value
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4A3,Day 1 - 16:00 - 17:00 Importance of energy audits and energy reduction strategies 
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4B1,Day 2 - 12:00 - 13:00 Leapfrogging the residential new construction industry in the GCC to a sustainable future
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4B2,"Day 2 - 14:00 - 15:00 
+Indoor Environmental Quality (IEQ) Strategies for LEED v4"
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4B3,Day 2 - 16:00 - 17:00 Energy and Atmosphere Strategies for LEED v4 
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4C1,Day 3 - 12:00 - 13:00 Sustainability Vs. Life Riddles
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4C2,Day 3 - 14:00 - 15:00  Evaluating the impact and application of sustainable development in the GCC
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4C3,Day 3 - 16:00 - 17:00  Layering the Future
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4D1,"Day 4 - 12:00 - 13:00 
+Business Opportunities and growth areas in the Construction Industry in today’s New Normal"
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4D2,Day 4 - 14:00 - 15:00 Regional Technical Solutions for LEED 
+Workshop: Theater 4 - SUSTAINABILITY IS THE FUTURE,T4D3,Day 4 - 16:00 - 17:00 Tools for sustainable development at district level
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5A1,Day 1 - 12:00 - 13:00 Keys to resolving the inevitable construction dispute
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5A2,"Day 1 - 14:00 - 15:00 
+Construction Quality Management "
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5A3,Day 1 - 16:00 - 17:00 How to import and export from the U.K & Europe 
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5B1,Day 2 - 12:00 - 13:00 Sustainability for C-level Executives
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5B2,Day 2 - 14:00 - 15:00 Labor and employment issues
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5B3,Day 2 - 16:00 - 17:00 Establishing a Difference that can be preserved
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5C1,Day 3 -  12:00 - 13:00 Social media in the construction field
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5C2,Day 3 - 14:00 - 15:00 Recognizing PPP as a driver for sustainable infrastructure industry
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5C3,Day 3 - 16:00 - 17:00 How to use licensing to sell your products 
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5D1,Day 4 - 12:00 - 13:00 Effective Marketing strategies in the Construction Industry
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5D2,Day 4 - 14:00 - 15:00 Finance for non finance managers
+Workshop: Theater 5 - BUSINESS STRATEGIES & MARKETING STRATEGIES,T5D3,Day 4 - 16:00 - 17:00 Future of Retail Design and Trends
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6A1,Day 1 - 12:00 - 13:00 Implementation Practical Risk Management for Mega Construction Projects : Project Management
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6A2,Day 1 - 14:00 - 15:00 Sidestep Complexity 
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6A3,Day 1 - 16:00 - 17:00 How to make PMOs critical to Business: The Business PMO 
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6B1,Day 2 - 12:00 - 13:00 Is every request from business a project? 
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6B2,Day 2 - 14:00 - 15:00 BIM Between Theory and Practice
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6B3,Day 2 - 16:00 - 17:00 Leadership to drive projects and project management career to effective change    
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6C1,"Day 3 -  12:00 - 13:00 
+Controlling Productivity in Construction Projects"
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6C2,Day 3 - 14:00 - 15:00 Intrapreneurship - Need of the Hour in Program Management
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6C3,Day 3 - 16:00 - 17:00 Construction Projects and their impact on project's constraints
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6D1,"Day 4  - 12:00 - 13:00 
+Institutionalizing Project Management"
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6D2,Day 4 -  14:00 - 15:00 Does your strategy performance truly reflect your portfolio performance? 
+Workshop: Theater 6 - PROJECT MANAGEMENT,T6D3,Day 4 - 16:00 - 17:00 Towards Lean Construction: the future of BIM–based project planning and control 
+What is your current employment status? - MEC,MPEMP,Employed
+What is your current employment status? - MEC,MPUNE,Unemployed
+What is your current employment status? - MEC,MPSTU,Student
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP01,"Accessories, Wear Parts & Components"
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP02,Aggregates & Aggregate Processing
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP03,Batching Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP04,"Block, Paver & Tile Production Equipment"
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP05,Cement & Cementitious Products
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP06,Construction Chemicals & Admixtures
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP07,Construction & Commercial Vehicles
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP08,Construction Machinery
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP09,Cranes & Access Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP10,"Crushing, Screening and Recycling Equipment"
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP11,"Cutting, Sawing & Coring Equipment"
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP12,Decorative Concrete
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP13,Earthmoving Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP14,"Exterior Improvements, Repair & Retrofitting"
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP15,Finishing Tools & Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP16,"Formwork, Formwork Accessories & Scaffolding"
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP17,Lifting Appliances & Conveying Systems
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP18,Material Processing & Handling
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP19,Piling & Drilling Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP20,Placing Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP21,Power Generation
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP22,Precast Production & Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP23,Pumping Equipment & Accessories
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP24,Raw Materials Extraction Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP25,Ready Mixed Concrete
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP26,Rebar & Rebar Processing
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP27,"Site Clearing, Demolition & Relocation"
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP28,Site Installation Equipment
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP29,Surface Preparation
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP30,"Transmission Engineering, Fluid Technology & Filtration"
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP31,Truck Mixers
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP32,Steel Fabrication Machinery – (Metal / Steel / Aluminum)
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP39,Other (specify)
+"While visiting Middle East Concrete and PMV Live, what products will you be mainly looking for?	",MP33,Lubricants (onsite form)
+What is your nature of business ? - MEC,MP201,Agent - distributor - supplier
+What is your nature of business ? - MEC,MP202,Architectural Firm
+What is your nature of business ? - MEC,MP204,Building Consultancy
+What is your nature of business ? - MEC,MP205,Cement Supplier
+What is your nature of business ? - MEC,MP206,Commercial Services
+What is your nature of business ? - MEC,MP208,Contractor
+What is your nature of business ? - MEC,MP209,Education & Training
+What is your nature of business ? - MEC,MP210,Engineering
+What is your nature of business ? - MEC,MP213,Façade Engineering
+What is your nature of business ? - MEC,MP214,Facilities Management
+What is your nature of business ? - MEC,MP218,Government/Municipality
+What is your nature of business ? - MEC,MP219,Interior Design Agency - Other
+What is your nature of business ? - MEC,MP223,IT & Software
+What is your nature of business ? - MEC,MP224,Landscaping
+What is your nature of business ? - MEC,MP227,Manufacturer
+What is your nature of business ? - MEC,MP236,MEP Contractor
+What is your nature of business ? - MEC,MP238,Property Developer
+What is your nature of business ? - MEC,MP241,Repair Contractor
+What is your nature of business ? - MEC,MP245,Sub-Contractor
+What is your nature of business ? - MEC,MP246,Surveying
+What is your nature of business ? - MEC,MP248,Trade Association
+What is your nature of business ? - MEC,MP249,Transport & Supply chain
+What is your nature of business ? - MEC,MP250,Waste & Recycling
+What is your nature of business ? - MEC,MP299,Others
+Are you a key buyer with direct purchasing authority for your company? - MEC,MP81,Yes
+Are you a key buyer with direct purchasing authority for your company? - MEC,MP82,No
+Direct level of purchasing authority - MEC,MP91,"Up to $50,000"
+Direct level of purchasing authority - MEC,MP92,"Up to $100,000"
+Direct level of purchasing authority - MEC,MP93,"Up to $250,000"
+Direct level of purchasing authority - MEC,MP94,"Up to $500,000"
+Direct level of purchasing authority - MEC,MP95,"Up to $1,000,000"
+Direct level of purchasing authority - MEC,MP96,"Up to $5,000,000"
+Direct level of purchasing authority - MEC,MP97,"Up to $10,000,000"
+Direct level of purchasing authority - MEC,MP98,Up to $25 million
+Direct level of purchasing authority - MEC,MP99,Up to $50 million
+Direct level of purchasing authority - MEC,MP100,Up to $100 million
+Direct level of purchasing authority - MEC,MP101,100 million +
+Direct level of purchasing authority - MEC,MP102,Don't Know
+Direct level of purchasing authority - MEC,MP103,Other
+Direct level of purchasing authority - MEC,MP104,None
+No of Employees - MEC,MP111,0 – 10
+No of Employees - MEC,MP112,11 – 50
+No of Employees - MEC,MP113,51 – 250
+No of Employees - MEC,MP114,251+
+No of Employees - (0-10) - MEC,MP111A,Local
+No of Employees - (0-10) - MEC,MP111B,Regional
+No of Employees - (0-10) - MEC,MP111C,International
+No of Employees - (11-50) - MEC,MP112A,Local
+No of Employees - (11-50) - MEC,MP112B,Regional
+No of Employees - (11-50) - MEC,MP112C,International
+No of Employees - (51-250) - MEC,MP113A,Local
+No of Employees - (51-250) - MEC,MP113B,Regional
+No of Employees - (51-250) - MEC,MP113C,International
+No of Employees - (251+) - MEC,MP114A,Local
+No of Employees - (251+) - MEC,MP114B,Regional
+No of Employees - (251+) - MEC,MP114C,International
+Are you interested in finding out more information about exhibiting?  - MEC,MP131,Yes
+Are you interested in finding out more information about exhibiting?  - MEC,MP132,No
+Are you interested in other construction events? - MEC,MP141,Yes
+Are you interested in other construction events? - MEC,MP142,No
+Are you interested in other construction events? - Yes - MEC,MP176,The Big 5 Kuwait (Onsite form)
+Are you interested in other construction events? - Yes - MEC,MP177,The Big 5 East Africa Kenya (Onsite form)
+Are you interested in other construction events? - Yes - MEC,MP169,The Big 5 Indonesia (Onsite Form)
+Are you interested in other construction events? - Yes - MEC,MP170,The Big 5 India (Onsite Form)
+Are you interested in other construction events? - Yes - MEC,MP175,Middle East Coating Show (onsite form)
+Are you interested in other construction events? - Yes - MEC,MP167,The Big 5 (Dubai) | 21-24 November 2016
+Are you interested in other construction events? - Yes - MEC,MP151,FM Expo Saudi (Jeddah) |15 – 17 January 2017
+Are you interested in other construction events? - Yes - MEC,MP152,HVACR Expo Saudi (Jeddah) | 15 - 17 January 2017
+Are you interested in other construction events? - Yes - MEC,MP153,The Big 5 Saudi (Jeddah) | 27-30 March 2017
+Are you interested in other construction events? - Yes - MEC,MP168,Africa Renewable Energy Summit | 4 – 5 April 2017
+Are you interested in other construction events? - Yes - MEC,MP154,"Stone & Surface Saudi Expo (Jeddah) | 4 - 6 April, 2017 "
+Are you interested in other construction events? - Yes - MEC,MP155,The Big 5 North Africa (Casablanca) | 25- 27 April 2017
+Are you interested in other construction events? - Yes - MEC,MP166,The Big 5 (Dubai) | 26-29 November 2017
+Are you interested in other construction events? - Yes - MEC,MP156,Middle East Covering (Dubai)| 22-25 May 2017
+Are you interested in other construction events? - Yes - MEC,MP157,Middle East Stone (Dubai) | 22-25 May 2017
+Are you interested in other construction events? - Yes - MEC,MP158,Commercial Cleaning & Hygiene (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes - MEC,MP159,Elevators & Access Control (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes - MEC,MP160,FM EXPO (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes - MEC,MP161,Gulf Glass (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes - MEC,MP162,Intersolar Middle East (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes - MEC,MP163,Middle East Waste & Recycling (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes - MEC,MP164,Outdoor Design & Build Show (Dubai) | 25 - 27 September 2017
+Are you interested in other construction events? - Yes - MEC,MP165,"Windows, Doors & Facades (Dubai) | 25 - 27 September 2017"
+MEC Workshop - Building Block Workshop Theatre,TA1,Day 1 - Fabric Reinforced Cementitious Matrix (FRCM) Composites for Infrastructure Strengthening (MEC)
+MEC Workshop - Building Block Workshop Theatre,TA2,Day 1 - Tips to Finance Machinery (PMV)
+MEC Workshop - Building Block Workshop Theatre,TA3,Day 1 - How to continue to rebuild and prevent against natural disaster? (MEC)
+MEC Workshop - Building Block Workshop Theatre,TA4,Day 1 - How to buy and sell construction equipment like a pro? (PMV)
+MEC Workshop - Building Block Workshop Theatre,TA5,Day 2 - Durability of Concrete Structures in Aggressive Conditions with FRC  MEC)
+MEC Workshop - Building Block Workshop Theatre,TA6,Day 2 - A Practical approach towards Behavior Based Safety through OHS Culture Maturity Development Tools (PMV)
+MEC Workshop - Building Block Workshop Theatre,TA7,Day 2 - Advanced Materials and Techniques for Reinforced Concrete Structures – Fiber Reinforced Polymer (FRP) (PANEL) (MEC)
+MEC Workshop - Building Block Workshop Theatre,TA8,Day 2 - Evolution of the Tipper Body Weight for the Construction market worldwide (PMV)
+MEC Workshop - Building Block Workshop Theatre,TA9,Day 3 - The role of telematics in the Middle East's Construction: Big Data and Big Machines (PMV)
+MEC Workshop - Building Block Workshop Theatre,TA10,Day 3 - Concrete Repair (MEC)
+MEC Workshop - Building Block Workshop Theatre,TA11,Day 3 -  Arbitration and dispute resolutions in construction claims (MEC)
+MEC Workshop - Building Block Workshop Theatre,TA12,Day 3 - Efforts towards low emission targets: Clean construction Industry (PMV)
+MEC Workshop - Building Block Workshop Theatre,TA13,Day 4 - The heavy equipment health check (PMV)     
+MEC Workshop - Building Block Workshop Theatre,TA14,Day 4 - Personal Protection Equipment (PPE) –health and safety(PMV)
+MEC Workshop - Building Block Workshop Theatre,TA15,Day 4 - Demystifying the ‘fit for purpose’ obligations in EPC and Design & Build Contracts (MEC)
+MEC Workshop - Building Block Workshop Theatre,TA16,Day 4 - Mobile Elevating Work Platform innovation & Development
+MEC Workshop - Tools of the Trade Workshop Theater ,TB1,Day 1 - Challenges and Opportunities in the Concrete Industry (MEC)    
+MEC Workshop - Tools of the Trade Workshop Theater ,TB2,Day 1 - Recycled Concrete in Road Projects (MEC)   
+MEC Workshop - Tools of the Trade Workshop Theater ,TB3,Day 1 -  Performance-Based Specifications: Case studies in the UAE (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB14,Day 1 - Understanding the application and dynamics of Green Concrete in Dubai (Panel) (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB4,Day 2 - Innovative design methods of concrete – (Intro to Decorative Concrete) (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB5,Day 2 - Coloring options for Decorative Concrete - From boring to beautiful - adding color to new or existing concrete (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB6,Day 2 - Troubleshooting Coating & Sealer Failures - Coating Preparation (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB7,Day 2 - Trends in Polished Concrete (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB8,Day 3 - Integrated reliability and durability based structural health monitoring in concrete structures: case study bridges (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB9,Day 3 - Precast innovations for sustainability and competitiveness (MEC)        
+MEC Workshop - Tools of the Trade Workshop Theater ,TB10,Day 3 - Advance Dry Mortar Technology  (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB15,Day 3 -  Development of cement free polymer concrete for use in UAE  
+MEC Workshop - Tools of the Trade Workshop Theater ,TB11,Day 4 - Concrete Sustainability - The Masdar Experience (MEC)                  
+MEC Workshop - Tools of the Trade Workshop Theater ,TB12,Day 4 - Advances in hot weather concreting (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB13,Day 4 - Carbon Dioxide Utilization in Ready-mix Concrete Production (MEC)
+MEC Workshop - Tools of the Trade Workshop Theater ,TB16,"Day 4 - Polyurea, a miracle in coating industry (MEC)       "
+MEC Seminar - Let's Get Technical Seminar ,TS01,Day 1 - How to manage BIM for Concrete Construction                   
+MEC Seminar - Let's Get Technical Seminar ,TS02,Day 1 - Achieving increased concrete durability and serviceability by the use of improved construction materials and techniques
+MEC Seminar - Let's Get Technical Seminar ,TS03,Day 1 -  Commercial vehicle lubricants in a low Sulphur diesel environment                         
+MEC Seminar - Let's Get Technical Seminar ,TS04,Day 1 - Can Performance-Based Specifications be implemented for Durability of Concrete? Will it work? (MEC)
+MEC Seminar - Let's Get Technical Seminar ,TS05,Day 1 - Enhancement of Reinforced Concrete Infrastructure Service Life in the GCC Countries
+MEC Seminar - Let's Get Technical Seminar ,TS06,Day 2 - Construction and demolition waste recycling – Does it make a business case? 
+MEC Seminar - Let's Get Technical Seminar ,TS07,Day 2 - Work at Height Safety   
+MEC Seminar - Let's Get Technical Seminar ,TS08,Day 2 - Middle East Concrete Market
+MEC Seminar - Let's Get Technical Seminar ,TS09,Day 2 -  Robotics and Applications 
+MEC Seminar - Let's Get Technical Seminar ,TS10,Day 2 - The Importance of Effective Construction Management in Today's Competitive Marketplace.
+MEC Seminar - Let's Get Technical Seminar ,TS11,"Day 2 - Leaks, Tunneling and Deep Foundation Companies (PMV) "
+MEC Seminar - Let's Get Technical Seminar ,TS12,Day 3 - The Development of the GRC Industry – 40 years on
+MEC Seminar - Let's Get Technical Seminar ,TS13,Day 3 - Equipment management & Maintenance
+MEC Seminar - Let's Get Technical Seminar ,TS14,Day 3 - Non-destructive testing: Quality control & structural evaluation (MEC)
+MEC Seminar - Let's Get Technical Seminar ,TS15,Day 3 - Power of Coolants in the construction industry + Coolants DEMO (coolants v/s water v/s other low quality coolants) (PMV)
+MEC Seminar - Let's Get Technical Seminar ,TS16,Day 3 - Fleet Management (PMV)
+MEC Seminar - Let's Get Technical Seminar ,TS22,Day 3 - Advantages of using dry mix mortar (MEC)
+MEC Seminar - Let's Get Technical Seminar ,TS17,Day 4 - Influence of soil conditions on design of structures:  
+MEC Seminar - Let's Get Technical Seminar ,TS18,Day 4 - Green Building Materials (MEC)
+MEC Seminar - Let's Get Technical Seminar ,TS19,Day 4 - GRC – The Next Generation of Materials and Applications
+MEC Seminar - Let's Get Technical Seminar ,TS20,Day 4 - Difference in lubricants formulated with Group 1 v/s Group 2 base oils and impact on your equipment's (PANEL) (PMV)
+MEC Seminar - Let's Get Technical Seminar ,TS21,Day 4 - Rail Less Overhead Crane Technology (PMV)
+UTM Codes,UTM_SOURCE,UTMSource
+UTM Codes,UTM_MEDIUM,UTMMedium
+UTM Codes,UTM_CAMPAIGN,UTMCampaign
+UTM Codes,UTM_CONTENT,CampaignSource
+UTM Codes,UTM_TERM,PromotionCode
+Conference Vetting Codes,VET,Conference Registration
+Distributor Networking : Please select which countries you are interested in finding a distributor ,D01,Saudi Arabia
+Distributor Networking : Please select which countries you are interested in finding a distributor ,D02,Oman
+Distributor Networking : Please select which countries you are interested in finding a distributor ,D03,Bahrain
+Distributor Networking : Please select which countries you are interested in finding a distributor ,D04,UAE
+Distributor Networking : Please select which countries you are interested in finding a distributor ,D05,Kuwait
+Distributor Networking : Please select which countries you are interested in finding a distributor ,D06,Qatar
+Distributor Networking : From which product sectors are you looking to export products,D07,Smart building & design technologies
+Distributor Networking : From which product sectors are you looking to export products,D08,Construction tools & building materials
+Distributor Networking : From which product sectors are you looking to export products,D09,Building envelope & special construction
+Distributor Networking : From which product sectors are you looking to export products,D10,Building interiors & finishes
+Distributor Networking : From which product sectors are you looking to export products,D11,MEP services
+Distributor Networking : Sessions,DS1A,Session 1 – 23 Nov (11am – 1:30pm) : Saudi Arabia
+Distributor Networking : Sessions,DS1B,Session 1 – 23 Nov (11am – 1:30pm) : Oman
+Distributor Networking : Sessions,DS1C,Session 1 – 23 Nov (11am – 1:30pm) : Bahrain
+Distributor Networking : Sessions,DS2A,Session 2 – 23 Nov (4pm – 6:30pm) : UAE
+Distributor Networking : Sessions,DS2B,Session 2 – 23 Nov (4pm – 6:30pm) : Kuwait
+Distributor Networking : Sessions,DS2C,Session 2 – 23 Nov (4pm – 6:30pm) : Qatar
+Distributor Networking : From which product sectors are you looking to import products ,D12,Smart building & design technologies
+Distributor Networking : From which product sectors are you looking to import products ,D13,Construction tools & building materials 
+Distributor Networking : From which product sectors are you looking to import products ,D14,Building envelope & special construction
+Distributor Networking : From which product sectors are you looking to import products ,D15,Building interiors & finishes 
+Distributor Networking : From which product sectors are you looking to import products ,D16,MEP services 
+PrePop Registrations,PPOP3,Registered from Big 5 Dubai 2016 - Telemarketing data - DTCM format
+PrePop Registrations,PPOP5,Distributors Networking - Distributors
+PrePop Registrations,PPOP6,Distributors Networking - Exhibitors
+PrePop Registrations,PPOP9,Pre-pop Registration for MEC and PMV Live
+PrePop Registrations,PPOP1,BIG5 Initial Prepop
+PrePop Registrations,PPOP4,BIG5 Second PPOP
+DMG 18 Digit Contact,18DCID,18DCID
+Speed Networking Vetting Codes,DIS,Distributor Networking
+Speed Networking Vetting Codes,DISR,Speed Networking Rejection
+Speed Networking Vetting Codes,DISA,Speed Networking Approved
+Rejection Code - from Email Template,REJ,Excellence in Construction Summit Rejected
+Rejection Code - from Email Template,PCR,Platinum Card Rejected
+Payment for Speed Networking Event,PBLOCK,Payment Blocked USD500
+Payment for Speed Networking Event,PAMNT,Amount
+Payment for Speed Networking Event,VI,Visa
+Payment for Speed Networking Event,MC,Mastercard
+Payment for Speed Networking Event,AMEX,American Express
+Payment for Speed Networking Event,PADATE,PreAuth Date
+Payment for Speed Networking Event,JCB,JCB
+GAIA Awards Products,GAP1,Prometal Metal Industries: ABLOY EL560L Low Energy Lock 
+GAIA Awards Products,GAP2,Synergy United Co : DIASEN SRL: Diathonite Evolution  
+GAIA Awards Products,GAP3,EcoPower Hybrid Hurricane Ventilator
+GAIA Awards Products,GAP4,Yesos Ibéricos SA : Gypsum board
+GAIA Awards Products,GAP5,Cobiax Middle East : Cobiax Slab System
+GAIA Awards Products,GAP6,INOTEC GmbH : OWC - One-Way-Container 
+GAIA Awards Products,GAP7,Onyx Solar Energy SL : Photovoltaic Glass for Buildings
+GAIA Awards Products,GAP8,SAGEGLASS : SageGlass
+GAIA Awards Products,GAP9,Solidian : Solidian GRID
+GAIA Awards Products,GAP10,JUMBO ENGINEERING LLC : TORO Dual Path – Dedicated Outdoor Air System
+Uploads,UPL1,BIG5: VIP DATA BIG 5 2016
+Uploads,UPL2,BIG5 Exhibitor Badges for printing - Agent
+Uploads,UPL3,BIG5 Exhibitor Badges for printing - dmg
+Uploads,UPL4,MEC_PMV Badges for printing - Agents
+Uploads,UPL5,MEC_PMV Badges for printing - DMG
+Uploads,UPL6,Big5 Exhibitor badges batch 2 - Agent
+Uploads,UPL7,Big5 Exhibitor badges batch 2 - DMG
+Uploads,UPL8,MEC_PMV Badges for printing - Agents BATCH2
+Uploads,UPL9,MEC_PMV Badges for printing - DMG BATCH2
+Uploads,UPL10,"BIG5: VIP data - Disha
+"
+Uploads,UPL11,"BIG 5 Speaker Badges Rubina/Sabah
+"
+Uploads,UPL12,"Big 5 PC Badges – Rubina/Sabah
+"
+Uploads,UPL13,"BIG5: Cool Box  - Vicky
+"
+Uploads,UPL14,"BIG5: EMI Data - Vicky
+"
+Uploads,UPL15,"BIG5: Al Fanar data – Vicky/Hussein
+"
+Uploads,UPL16,"BIG5: Canadian Delegation
+"
+Uploads,UPL17,"BIG5: Focus Group attendees - Disha
+"
+Uploads,UPL18,"BIG5: Visitor data 
+"
+Uploads,UPL19,"BIG5: Hira Walraven AC Industry L.L.C
+"
+Uploads,UPL20,"BIG 5 : Italian Trade Commision
+"
+Uploads,UPL21,Generic VIP Upload
+Uploads,OUPL1,BIG 5 : Additional Exhibitor List From Marie - Al Rajhi File
+Uploads,UPL22,BIG 5: Sumayyah Media List
+Uploads,UPL23,BIG 5: Exhibitors Tele Delivery
+Uploads,OUPL2,BIG5: Generic Visitor Badges
+Uploads,MECUPLONS1,MEC: Request from Gabi. SPK EXH VIP VIS upload Onsite
+Uploads,OUPL3,BIG5: Copie de Data from Khadija
+Uploads,OUPL4,BIG5 : Make in India - EXH
+Uploads,OUPL5,BIG5 : Canadian Delegates 2
+Uploads,OUPL6,MEC : PC Sobha List by Kate 
+Uploads,OUPL7,BIG: JAFZA Exhibitor
+Uploads,OUPL8,BIG: DWTC Organizer
+Uploads,OUPL9,BIG5 : JRD VIP List
+Uploads,OUPL10,BIG5 : DMG Runners Staff List (Vibes)
+Uploads,OUPL11,BIG5 : Archie Survey Staff List
+Uploads,OUPL12,BIG5 : Press List Summayah
+Uploads,OUPL13,BIG: Organizers Badge from Vicky DWTC
+Uploads,OUPL14,BIG: Salma Additional Visitor
+Subscribe to - MEC (Onsite),MP301,The Big 5 Hub industry newsletter
+Subscribe to - MEC (Onsite),MP302,The Big 5 Hub quarterly magazine
+What is your publication/programme name? - MEC (MED Onsite Form),MP311,Publication 1
+What is your publication/programme name? - MEC (MED Onsite Form),MP312,Publication 2
+What region do you operate in? - MEC (MED Onsite Form),MP411,UAE
+What region do you operate in? - MEC (MED Onsite Form),MP412,GCC
+What region do you operate in? - MEC (MED Onsite Form),MP413,MENA
+What region do you operate in? - MEC (MED Onsite Form),MP414,International
+What region do you operate in? - MEC (MED Onsite Form),MP419,Other 
+What area of media do you work in? - MEC (MED Onsite Form),MP511,Journalism
+What area of media do you work in? - MEC (MED Onsite Form),MP512,Freelance writing
+What area of media do you work in? - MEC (MED Onsite Form),MP513,Radio
+What area of media do you work in? - MEC (MED Onsite Form),MP514,TV
+What area of media do you work in? - MEC (MED Onsite Form),MP515,Photography
+What area of media do you work in? - MEC (MED Onsite Form),MP516,Publishing
+What area of media do you work in? - MEC (MED Onsite Form),MP517,PR
+What area of media do you work in? - MEC (MED Onsite Form),MP518,Blogging
+What area of media do you work in? - MEC (MED Onsite Form),MP519,Videography
+What area of media do you work in? - MEC (MED Onsite Form),MP520,Other
+What topic areas do you cover? - MEC (MED Onsite Form),MP611,"Accessories, Wear Parts & Components"
+What topic areas do you cover? - MEC (MED Onsite Form),MP612,Aggregates & Aggregate Processing
+What topic areas do you cover? - MEC (MED Onsite Form),MP613,Batching Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP614,"Block, Paver & Tile Production Equipment"
+What topic areas do you cover? - MEC (MED Onsite Form),MP615,Cement & Cementitious Products
+What topic areas do you cover? - MEC (MED Onsite Form),MP616,Construction Chemicals & Admixtures
+What topic areas do you cover? - MEC (MED Onsite Form),MP617,Construction & Commercial Vehicles
+What topic areas do you cover? - MEC (MED Onsite Form),MP618,Cranes & Access Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP619,"Crushing, Screening and Recycling Equipment"
+What topic areas do you cover? - MEC (MED Onsite Form),MP620,"Cutting, Sawing & Coring Equipment"
+What topic areas do you cover? - MEC (MED Onsite Form),MP621,Decorative Concrete
+What topic areas do you cover? - MEC (MED Onsite Form),MP622,Earthmoving Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP623,"Exterior Improvements, Repair & Retrofitting"
+What topic areas do you cover? - MEC (MED Onsite Form),MP624,Finishing Tools & Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP625,"Formwork, Formwork Accessories & Scaffolding"
+What topic areas do you cover? - MEC (MED Onsite Form),MP626,Lifting Appliances & Conveying Systems
+What topic areas do you cover? - MEC (MED Onsite Form),MP627,Material Processing & Handling
+What topic areas do you cover? - MEC (MED Onsite Form),MP628,Piling & Drilling Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP629,Placing Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP630,Power Generation
+What topic areas do you cover? - MEC (MED Onsite Form),MP631,Precast Production & Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP632,Pumping Equipment & Accessories
+What topic areas do you cover? - MEC (MED Onsite Form),MP633,Raw Materials Extraction Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP634,Ready Mixed Concrete
+What topic areas do you cover? - MEC (MED Onsite Form),MP635,Rebar & Rebar Processing
+What topic areas do you cover? - MEC (MED Onsite Form),MP636,"Site Clearing, Demolition & Relocation"
+What topic areas do you cover? - MEC (MED Onsite Form),MP637,Site Installation Equipment
+What topic areas do you cover? - MEC (MED Onsite Form),MP638,Surface Preparation
+What topic areas do you cover? - MEC (MED Onsite Form),MP639,"Transmission Engineering, Fluid Technology & Filtration"
+What topic areas do you cover? - MEC (MED Onsite Form),MP640,Truck Mixers
+What topic areas do you cover? - MEC (MED Onsite Form),MP641,Others
+What topic areas do you cover? - MEC (MED Onsite Form),MP642,Associations
+What topic areas do you cover? - MEC (MED Onsite Form),MP643,Education & Training
+What topic areas do you cover? - MEC (MED Onsite Form),MP644,Government
+What topic areas do you cover? - MEC (MED Onsite Form),MP645,Media
+Payment Status,PAID,Payment Received
+Payment Status,NPAID,Payment not received
+Payment Status,FOC,Free of Charge
+Payment Mode,VI,Visa Card Payment
+Payment Mode,MC,MasterCard Payment
+Payment Mode,AMEX,Amex Card Payment
+Payment Mode,CASH,Cash Payment
+Payment Mode,CC,Credit Card
+Payment Details,PAMNT,Paid Amount
+Payment Details,PDATE,Payment Date 
+Payment Details,PDETAILS,Payment Details - Transaction ID
+Payment Details,ONS,Paid Onsite
+Payment Details,PNOTE,Payment Notes
+DTCM Categories - Internal Use Only,SVISPREREG,SVISPREREG
+DTCM Categories - Internal Use Only,SEXHPREREG,SEXHPREREG
+DTCM Categories - Internal Use Only,SPLATINUMCL,SPLATINUMCL
+DTCM Categories - Internal Use Only,SVIPVISITORS,SVIPVISITORS
+DTCM Categories - Internal Use Only,SSUMMITDELE,SSUMMITDELE
+DTCM Categories - Internal Use Only,SSPEAKERS,SSPEAKERS
+DTCM Categories - Internal Use Only,SORGANISER,SORGANISER
+DTCM Categories - Internal Use Only,SEXHOL,SEXHOL
+DTCM Categories - Internal Use Only,SOSVIS,SOSVIS
+DTCM Categories - Internal Use Only,SMEDIA,SMEDIA
+DTCM Categories - Internal Use Only,SOLVIS,SOLVIS
+DTCM Categories - Internal Use Only,SVISPREREG2,SVISPREREG2
+DTCM Categories - Internal Use Only,SPLANB,SPLANB
+Generic Badges,GVIP,Generic VIP
+What is your publication/programme name? - Big5 (Media Onsite Form),BF311,Publication 1
+What is your publication/programme name? - Big5 (Media Onsite Form),BF312,Publication 2
+What region do you operate in? - Big5 (Media Onsite Form),BF411,UAE
+What region do you operate in? - Big5 (Media Onsite Form),BF412,GCC
+What region do you operate in? - Big5 (Media Onsite Form),BF413,MENA
+What region do you operate in? - Big5 (Media Onsite Form),BF414,International
+What region do you operate in? - Big5 (Media Onsite Form),BF419,Other
+What area of media do you work in? - Big5 (Media Onsite Form),BF511,Journalism
+What area of media do you work in? - Big5 (Media Onsite Form),BF512,Freelance writing
+What area of media do you work in? - Big5 (Media Onsite Form),BF513,Radio
+What area of media do you work in? - Big5 (Media Onsite Form),BF514,TV
+What area of media do you work in? - Big5 (Media Onsite Form),BF515,Photography
+What area of media do you work in? - Big5 (Media Onsite Form),BF516,Publishing
+What area of media do you work in? - Big5 (Media Onsite Form),BF517,PR
+What area of media do you work in? - Big5 (Media Onsite Form),BF521,Podcast
+What area of media do you work in? - Big5 (Media Onsite Form),BF522,Social media
+What area of media do you work in? - Big5 (Media Onsite Form),BF518,Blogging
+What area of media do you work in? - Big5 (Media Onsite Form),BF519,Videography
+What area of media do you work in? - Big5 (Media Onsite Form),BF520,Other
+What topic areas do you cover? - Big5 (Media Onsite Form),BF711,Construction
+What topic areas do you cover? - Big5 (Media Onsite Form),BF712,Real Estate
+What topic areas do you cover? - Big5 (Media Onsite Form),BF713,Business & Economy
+What topic areas do you cover? - Big5 (Media Onsite Form),BF714,Politics
+What topic areas do you cover? - Big5 (Media Onsite Form),BF715,Arts and style
+What topic areas do you cover? - Big5 (Media Onsite Form),BF716,Tech & Science
+What topic areas do you cover? - Construction Big5 (Media Onsite Form),BF711A,MEP Services
+What topic areas do you cover? - Construction Big5 (Media Onsite Form),BF711B,Building Interiors & Finishes
+What topic areas do you cover? - Construction Big5 (Media Onsite Form),BF711C,"Building Envelope & Special Construction
+"
+What topic areas do you cover? - Construction Big5 (Media Onsite Form),BF711D,Construction Tools & Building Materials
+What topic areas do you cover? - Construction Big5 (Media Onsite Form),BF711E,Smart Building & Design Technologies
+Which Big 5 events are you interested in receiving information about: - Big5 (Media Onsite Form),MBF153,The Big 5 Saudi
+Which Big 5 events are you interested in receiving information about: - Big5 (Media Onsite Form),MBF155,The Big 5 North Africa
+Which Big 5 events are you interested in receiving information about: - Big5 (Media Onsite Form),MBF167,The Big 5 Kuwait
+Which Big 5 events are you interested in receiving information about: - Big5 (Media Onsite Form),MBF168,The Big 5 Construct East Africa
+Which Big 5 events are you interested in receiving information about: - Big5 (Media Onsite Form),MBF169,The Big 5 Indonesia
+Which Big 5 events are you interested in receiving information about: - Big5 (Media Onsite Form),MBF166,The Big 5
+Which Big 5 events are you interested in receiving information about: - Big5 (Media Onsite Form),MBF170,The Big 5 Construct India
+Which Big 5 events are you interested in receiving information about: - Big5 (Media Onsite Form),MBF174,None of the above
+Attendance,BATTD1,BIG5: Attended on Day 1
+Attendance,BATTD2,BIG5: Attended on Day 2
+Attendance,BATTD3,BIG5: Attended on Day 3
+Attendance,BATTD4,BIG5: Attended on Day 4
+Attendance,MATTD1,MEC: Attended on Day 1
+Attendance,MATTD2,MEC: Attended on Day 2
+Attendance,MATTD3,MEC: Attended on Day 3
+Attendance,MATTD4,MEC: Attended on Day 4
+Crossover Attendance,MXO2BD1,BIG5: Crossover from MEC to BIG5 on Day 1
+Crossover Attendance,MXO2BD2,BIG5: Crossover from MEC to BIG5 on Day 2
+Crossover Attendance,MXO2BD3,BIG5: Crossover from MEC to BIG5 on Day 3
+Crossover Attendance,MXO2BD4,BIG5: Crossover from MEC to BIG5 on Day 4
+Crossover Attendance,BXO2MD1,MEC: Crossover from BIG5 to MEC Day 1
+Crossover Attendance,BXO2MD2,MEC: Crossover from BIG5 to MEC Day 2
+Crossover Attendance,BXO2MD3,MEC: Crossover from BIG5 to MEC Day 3
+Crossover Attendance,BXO2MD4,MEC: Crossover from BIG5 to MEC Day 4
+MEC: Station Names,MCERT1,MECPMV: MEC E132 Stand - MCERT1
+MEC: Station Names,MCERT2,MECPMV: MEC E132 Stand - MCERT2
+MEC: Station Names,MCERT3,MECPMV: MEC E132 Stand - MCERT3
+MEC: Station Names,Z6PR1,MECPMV: Zabeel 6 Pre-Reg 1
+MEC: Station Names,Z6PR2,MECPMV: Zabeel 6 Pre-Reg 2
+MEC: Station Names,Z6PR3,MECPMV: Zabeel 6 Pre-Reg 3
+MEC: Station Names,Z6PR4,MECPMV: Zabeel 6 Pre-Reg 4
+MEC: Station Names,,New Question
+MEC: Station Names,SVR10,CPD2 - SVR10
+MEC: Station Names,SVR10,SVR10 - CPD2
+MEC: Station Names,DUBAI09,MECPMV: DUBAI09 - Backup Server
+MEC: Station Names,DUBAI10,MECPMV: DUBAI10 - Main Server
+MEC: Station Names,CHLOE-HP,MECPMV: CHLOE-HP
+MEC: Station Names,Z4PR1,MECPMV: Zabeel 4 Pre-Reg 1
+MEC: Station Names,Z4PR2,MECPMV: Zabeel 4 Pre-Reg 2
+MEC: Station Names,Z4PR3,MECPMV: Zabeel 4 Pre-Reg 3
+MEC: Station Names,Z4PR4,MECPMV: Zabeel 4 Pre-Reg 4
+MEC: Station Names,Z5ONS1,MECPMV: Zabeel 5 Onsite 1
+MEC: Station Names,Z5ONS2,MECPMV: Zabeel 5 Onsite 2
+MEC: Station Names,Z5ONS3,MECPMV: Zabeel 5 Onsite 3
+MEC: Station Names,Z5ONS4,MECPMV: Zabeel 5 Onsite 4
+MEC: Station Names,Z6EXH1,MECPMV: Zabeel 6 Exhibitor 1
+MEC: Station Names,Z6EXH2,MECPMV: Zabeel 6 Exhibitor 2
+MEC: Station Names,Z6EXH3,MECPMV: Zabeel 6 Exhibitor 3
+MEC: Station Names,Z6EXH4,MECPMV: Zabeel 6 Exhibitor 4
+MEC: Station Names,MCPD1,MECPMV: MEC E132 Stand - CPD1
+MEC: Station Names,MCPD2,MECPMV: MEC E132 Stand - CPD2
+MEC: Station Names,MCPD3,MECPMV: MEC E132 Stand - CPD3
+BIG5: Station Names,CGPC1,Convention Gate - Platinum Club
+BIG5: Station Names,CGPC2,Convention Gate - Platinum Club
+BIG5: Station Names,CGVIP2,Convention Gate - VIP
+BIG5: Station Names,CGONS1,Convention Gate - Onsite
+BIG5: Station Names,CGONS2,Convention Gate - Onsite
+BIG5: Station Names,CGONS3,Convention Gate - Onsite
+BIG5: Station Names,CGONS4,Convention Gate - Onsite
+BIG5: Station Names,CGONS5,Convention Gate - Onsite
+BIG5: Station Names,CGFT1,Convention Gate - Fast Track
+BIG5: Station Names,CGFT2,Convention Gate - Fast Track
+BIG5: Station Names,CGFT3,Convention Gate - Fast Track
+BIG5: Station Names,CGFT4,Convention Gate - Fast Track
+BIG5: Station Names,CGFT5,Convention Gate - Fast Track
+BIG5: Station Names,CGFT6,Convention Gate - Fast Track
+BIG5: Station Names,CGFT7,Convention Gate - Fast Track
+BIG5: Station Names,CGFT8,Convention Gate - Fast Track
+BIG5: Station Names,CGFT9,Convention Gate - Fast Track
+BIG5: Station Names,CGFT10,Convention Gate - Fast Track
+BIG5: Station Names,RBVIP1,Rashid Balcony - VIP
+BIG5: Station Names,RBVIP2,Rashid Balcony - VIP
+BIG5: Station Names,RBMED1,Rashid Balcony - Media
+BIG5: Station Names,RBMED2,Rashid Balcony - Media
+BIG5: Station Names,AWVIP1,Al Wasl - VIP
+BIG5: Station Names,AWONS1,Al Wasl - Onsite
+BIG5: Station Names,AWONS2,Al Wasl - Onsite
+BIG5: Station Names,AWONS3,Al Wasl - Onsite
+BIG5: Station Names,AWONS4,Al Wasl - Onsite
+BIG5: Station Names,AWONS5,Al Wasl - Onsite
+BIG5: Station Names,AWONS6,Al Wasl - Onsite
+BIG5: Station Names,AWONS7,Al Wasl - Onsite
+BIG5: Station Names,AWONS8,Al Wasl - Onsite
+BIG5: Station Names,AWFT1,Al Wasl - Fast Track
+BIG5: Station Names,AWFT2,Al Wasl - Fast Track
+BIG5: Station Names,AWFT3,Al Wasl - Fast Track
+BIG5: Station Names,AWFT4,Al Wasl - Fast Track
+BIG5: Station Names,AWFT5,Al Wasl - Fast Track
+BIG5: Station Names,AWFT6,Al Wasl - Fast Track
+BIG5: Station Names,AWFT7,Al Wasl - Fast Track
+BIG5: Station Names,AWFT8,Al Wasl - Fast Track
+BIG5: Station Names,AWFT9,Al Wasl - Fast Track
+BIG5: Station Names,AWFT10,Al Wasl - Fast Track
+BIG5: Station Names,AWFT11,Al Wasl - Fast Track
+BIG5: Station Names,AWFT12,Al Wasl - Fast Track
+BIG5: Station Names,AWFT13,Al Wasl - Fast Track
+BIG5: Station Names,AWFT14,Al Wasl - Fast Track
+BIG5: Station Names,AWFT15,Al Wasl - Fast Track
+BIG5: Station Names,AWFT16,Al Wasl - Fast Track
+BIG5: Station Names,AWFT17,Al Wasl - Fast Track
+BIG5: Station Names,SMFT1,Saeed Main - Fast Track
+BIG5: Station Names,SMFT2,Saeed Main - Fast Track
+BIG5: Station Names,SMFT3,Saeed Main - Fast Track
+BIG5: Station Names,SMFT4,Saeed Main - Fast Track
+BIG5: Station Names,SMFT5,Saeed Main - Fast Track
+BIG5: Station Names,SMFT6,Saeed Main - Fast Track
+BIG5: Station Names,SMFT7,Saeed Main - Fast Track
+BIG5: Station Names,SMFT8,Saeed Main - Fast Track
+BIG5: Station Names,SMFT9,Saeed Main - Fast Track
+BIG5: Station Names,SMFT10,Saeed Main - Fast Track
+BIG5: Station Names,SS2EXH1,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH2,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH3,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH4,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH5,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH6,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH7,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH8,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH9,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS2EXH10,Sheikh Saeed 2 Foyer - Exhibitor
+BIG5: Station Names,SS1PC1,Sheikh Saeed 1 Marketing Suite - Platinum Club
+BIG5: Station Names,SS1PC2,Sheikh Saeed 1 Marketing Suite - Platinum Club
+BIG5: Station Names,SS1PC3,Sheikh Saeed 1 Marketing Suite - Platinum Club
+BIG5: Station Names,CC1FT1,Concourse 1 Dubai Bank - Fast Track
+BIG5: Station Names,CC1FT2,Concourse 1 Dubai Bank - Fast Track
+BIG5: Station Names,CC1FT3,Concourse 1 Dubai Bank - Fast Track
+BIG5: Station Names,CC1FT4,Concourse 1 Dubai Bank - Fast Track
+BIG5: Station Names,CC1EXH1,Concourse 1 Dubai Bank - Exhibitor
+BIG5: Station Names,CC1EXH2,Concourse 1 Dubai Bank - Exhibitor
+BIG5: Station Names,Z1VIP1,Zabeel 1 - VIP
+BIG5: Station Names,Z1ONS1,Zabeel 1 - Onsite
+BIG5: Station Names,Z1ONS2,Zabeel 1 - Onsite
+BIG5: Station Names,Z1FT1,Zabeel 1 - Fast Track
+BIG5: Station Names,Z1FT2,Zabeel 1 - Fast Track
+BIG5: Station Names,Z1FT3,Zabeel 1 - Fast Track
+BIG5: Station Names,BCPD1,Zabeel Link 1 - CPD 
+BIG5: Station Names,BCPD2,Zabeel Link 1 - CPD 
+BIG5: Station Names,BCPD3,Zabeel Link 1 - CPD 
+BIG5: Station Names,BCPD4,Zabeel Link 1 - CPD 
+BIG5: Station Names,BCPD5,Zabeel Link 1 - CPD 
+BIG5: Station Names,BCPD6,Zabeel Link 1 - CPD 
+BIG5: Station Names,ZL1COR1,Zabeel Link 1 - Correction
+BIG5: Station Names,ZL1COR2,Zabeel Link 1 - Correction
+BIG5: Station Names,EGGAIA1,Exhibition Gate - GAIA
+BIG5: Station Names,EGGAIA2,Exhibition Gate - GAIA
+BIG5: Station Names,EGGAIA3,Exhibition Gate - GAIA
+BIG5: Station Names,EGGAIA4,Exhibition Gate - GAIA
+BIG5: Station Names,EGGAIA5,Exhibition Gate - GAIA
+BIG5: Station Names,EGGAIA6,Exhibition Gate - GAIA
+X Codes,XVIS,X Coded Visitor
+X Codes,XBIG,X Coded Big 5
+X Codes,XMEC,X Coded MEC
+X Codes,XPC,X Coded PC
+X Codes,XVIP,X Coded VIP
+X Codes,XDEL,X Coded Delegate
+X Codes,XMED,X Coded Media
+X Codes,XSPK,X Coded Speaker
+X Codes,XORG,X Coded Organizer
+X Codes,XEXH,X Coded Exhibitor
+X Codes,XNTRAD,X Coded Non Trade
+X Codes,XSTU,X Coded Student
+X Codes,XP16BIG,X Coded P16BIG
+X Codes,XP16MEC,X Coded P16MEC
+X Codes,XBATTD1,X Coded BATTD1
+X Codes,XBATTD2,X Coded BATTD2
+Unidentified Codes,TRUE,True
+Unidentified Codes,INVR,INVR
+Unidentified Codes,BF46,BF46
+Unidentified Codes,BF44,BF44
+Unidentified Codes,BF71K,BF71K
+Unidentified Codes,BF71I,BF71I
+Unidentified Codes,EXPORT,EXPORT
+Unidentified Codes,ORE,ORE
+BIG5: Session Attendance,BIGSE1ATTD,Keys to resolving the inevitable construction dispute
+BIG5: Session Attendance,BIGSE2ATTD,Condition of assets a growing concern
+BIG5: Session Attendance,BIGSE3ATTD,BIM as information management and design process
+BIG5: Session Attendance,BIGSE4ATTD,Architectural Advancement: Creating an Iconic Development
+BIG5: Session Attendance,BIGSE5ATTD,Zero Carbon Buildings: Management of Design and Construction
+BIG5: Session Attendance,BIGSE6ATTD,Implementation Practical Risk Management for Mega Construction Projects: Project Management
+BIG5: Session Attendance,BIGSE7ATTD,Refurbishment Engineering and Sustainability
+BIG5: Session Attendance,BIGSE8ATTD,Construction Quality Management
+BIG5: Session Attendance,BIGSE9ATTD,Good practice during work at quarries
+BIG5: Session Attendance,BIGSE10ATTD,How BIM is transforming the construction industry
+BIG5: Session Attendance,BIGSE11ATTD,Adaptive Architecture: convertible structures
+BIG5: Session Attendance,BIGSE12ATTD,The Importance of Reserve Fund Studies in Protecting Property Value
+BIG5: Session Attendance,BIGSE13ATTD,Sidestep Complexity
+BIG5: Session Attendance,BIGSE14ATTD,LEED for Building Owners and Client Representatives
+BIG5: Session Attendance,BIGSE15ATTD,How to import and export from the U.K & Europe
+BIG5: Session Attendance,BIGSE16ATTD,Driving Culture change through Leadership
+BIG5: Session Attendance,BIGSE17ATTD,"BIM there, done that"
+BIG5: Session Attendance,BIGSE18ATTD,Improving Facade performance through design
+BIG5: Session Attendance,BIGSE19ATTD,Importance of energy audits and energy reduction strategies
+BIG5: Session Attendance,BIGSE20ATTD,How to make PMOs critical to Business: The Business PMO
+BIG5: Session Attendance,BIGSE21ATTD,LEED for Contractors
+BIG5: Session Attendance,BIGSE22ATTD,Sustainability for C-level Executive
+BIG5: Session Attendance,BIGSE23ATTD,All you need to know about the new UAE Fire Code
+BIG5: Session Attendance,BIGSE24ATTD,BIM for Coordination - from Concept to Construction
+BIG5: Session Attendance,BIGSE25ATTD,"Transformation, Translation and Representation"
+BIG5: Session Attendance,BIGSE26ATTD,Leapfrogging the residential new construction industry in the GCC to a sustainable future
+BIG5: Session Attendance,BIGSE27ATTD,Is every request from business a project?
+BIG5: Session Attendance,BIGSE28ATTD,Labor and Employment Issues
+BIG5: Session Attendance,BIGSE29ATTD,Defining Health & Safety Leadership Behaviors
+BIG5: Session Attendance,BIGSE30ATTD,The BIM 4D modeling though the project life cycle
+BIG5: Session Attendance,BIGSE31ATTD,Sustainability Beyond Design
+BIG5: Session Attendance,BIGSE32ATTD,Indoor Environmental Quality (IEQ) Strategies for LEED v4
+BIG5: Session Attendance,BIGSE33ATTD,BIM Between Theory and Practice
+BIG5: Session Attendance,BIGSE34ATTD,Establishing a Difference that can be preserved
+BIG5: Session Attendance,BIGSE35ATTD,Do Complex Innovative Building Envelopes Comprise Health & Safety?
+BIG5: Session Attendance,BIGSE36ATTD,IoT-izing The Construction Industry
+BIG5: Session Attendance,BIGSE37ATTD,Smart Construction & Architecture
+BIG5: Session Attendance,BIGSE38ATTD,Energy and Atmosphere Strategies for LEED v4
+BIG5: Session Attendance,BIGSE39ATTD,Leadership to Drive Projects and Project Management Career to Effective Change
+BIG5: Session Attendance,BIGSE40ATTD,How to do Business in the UAE
+BIG5: Session Attendance,BIGSE41ATTD,Social Media in the Contruction Field
+BIG5: Session Attendance,BIGSE42ATTD,SCM Contribution to Successful Project Management & Analyzing The extensive Project Pipeline
+BIG5: Session Attendance,BIGSE43ATTD,BIM Case study of office with warehouse
+BIG5: Session Attendance,BIGSE44ATTD,Efficient and sustainable cooling
+BIG5: Session Attendance,BIGSE45ATTD,Sustainability Vs. Life Riddles
+BIG5: Session Attendance,BIGSE46ATTD,Controlling Productivity
+BIG5: Session Attendance,BIGSE47ATTD,Recognizing PPP as a driver for sustainable infrastructure industry
+BIG5: Session Attendance,BIGSE48ATTD,
+BIG5: Session Attendance,BIGSE49ATTD,Integrating Material and Textural Information for As-Built BIM Using IR Sensing
+BIG5: Session Attendance,BIGSE50ATTD,Significance of MEP - What's next for District Cooling?
+BIG5: Session Attendance,BIGSE51ATTD,Evaluating the impact and application of sustainable development in the GCCs
+BIG5: Session Attendance,BIGSE52ATTD,Intrapreneurship - Need of the Hour in Program Management
+BIG5: Session Attendance,BIGSE53ATTD,How to use licensing to sell your products
+BIG5: Session Attendance,BIGSE54ATTD,IOT & Drones Logistics Technologies in Construction
+BIG5: Session Attendance,BIGSE55ATTD,Bim4Analysis
+BIG5: Session Attendance,BIGSE56ATTD,Energy Efficient HVAC System's for Healthcare
+BIG5: Session Attendance,BIGSE57ATTD,Layering the Future
+BIG5: Session Attendance,BIGSE58ATTD,Construction Projects and their impact on project's constraints
+BIG5: Session Attendance,BIGSE59ATTD,Effective Marketing strategies in the Construction Industry
+BIG5: Session Attendance,BIGSE60ATTD,Supply-chain management in construction industry
+BIG5: Session Attendance,BIGSE61ATTD,What's wrong with BIM? - Challenges in the Adoption of a new Planning Paradigm
+BIG5: Session Attendance,BIGSE62ATTD,MEP in transport Infrastructure
+BIG5: Session Attendance,BIGSE63ATTD,Business Opportunitires and growth areas in the Construction Industry in today's New Normal
+BIG5: Session Attendance,BIGSE64ATTD,InstitutionalizingProject Management
+BIG5: Session Attendance,BIGSE65ATTD,Finance for non-finance managers
+BIG5: Session Attendance,BIGSE66ATTD,Procurement transformation Strategies
+BIG5: Session Attendance,BIGSE67ATTD,How to get the best out of BIM intelligence in design process and taking it forward in construction
+BIG5: Session Attendance,BIGSE68ATTD,"MEP trade, challenges, trends and solutions"
+BIG5: Session Attendance,BIGSE69ATTD,Regional Technical Solutions for LEED
+BIG5: Session Attendance,BIGSE70ATTD,Does your strategy performance truly reflect your portfolio performance?
+BIG5: Session Attendance,BIGSE71ATTD,Future of Retail Design and Trends
+BIG5: Session Attendance,BIGSE72ATTD,Logistics Planning of Construction Projects for Expo 2020
+BIG5: Session Attendance,BIGSE73ATTD,BIM for Construction
+BIG5: Session Attendance,BIGSE74ATTD,Comparative Analysis of Tradtional Vs. Sustainable Chilled Water Plant Design
+BIG5: Session Attendance,BIGSE75ATTD,Tools for sustainable development at district level
+BIG5: Session Attendance,BIGSE76ATTD,Towards Lean Contruction: the furutre of BIM-based project plannin and control
+BIG5: Certificate Early Attendance,BIGSE1A30,Keys to resolving the inevitable construction dispute
+BIG5: Certificate Early Attendance,BIGSE2A30,Condition of assets a growing concern
+BIG5: Certificate Early Attendance,BIGSE3A30,BIM as information management and design process
+BIG5: Certificate Early Attendance,BIGSE4A30,Architectural Advancement: Creating an Iconic Development
+BIG5: Certificate Early Attendance,BIGSE5A30,Zero Carbon Buildings: Management of Design and Construction
+BIG5: Certificate Early Attendance,BIGSE6A30,Implementation Practical Risk Management for Mega Construction Projects: Project Management
+BIG5: Certificate Early Attendance,BIGSE7A30,Refurbishment Engineering and Sustainability
+BIG5: Certificate Early Attendance,BIGSE8A30,Construction Quality Management
+BIG5: Certificate Early Attendance,BIGSE9A30,Good practice during work at quarries
+BIG5: Certificate Early Attendance,BIGSE10A30,How BIM is transforming the construction industry
+BIG5: Certificate Early Attendance,BIGSE11A30,Adaptive Architecture: convertible structures
+BIG5: Certificate Early Attendance,BIGSE12A30,The Importance of Reserve Fund Studies in Protecting Property Value
+BIG5: Certificate Early Attendance,BIGSE13A30,Sidestep Complexity
+BIG5: Certificate Early Attendance,BIGSE14A30,LEED for Building Owners and Client Representatives
+BIG5: Certificate Early Attendance,BIGSE15A30,How to import and export from the U.K & Europe
+BIG5: Certificate Early Attendance,BIGSE16A30,Driving Culture change through Leadership
+BIG5: Certificate Early Attendance,BIGSE17A30,"BIM there, done that"
+BIG5: Certificate Early Attendance,BIGSE18A30,Improving Facade performance through design
+BIG5: Certificate Early Attendance,BIGSE19A30,Importance of energy audits and energy reduction strategies
+BIG5: Certificate Early Attendance,BIGSE20A30,How to make PMOs critical to Business: The Business PMO
+BIG5: Certificate Early Attendance,BIGSE21A30,LEED for Contractors
+BIG5: Certificate Early Attendance,BIGSE22A30,Sustainability for C-level Executive
+BIG5: Certificate Early Attendance,BIGSE23A30,All you need to know about the new UAE Fire Code
+BIG5: Certificate Early Attendance,BIGSE24A30,BIM for Coordination - from Concept to Construction
+BIG5: Certificate Early Attendance,BIGSE25A30,"Transformation, Translation and Representation"
+BIG5: Certificate Early Attendance,BIGSE26A30,Leapfrogging the residential new construction industry in the GCC to a sustainable future
+BIG5: Certificate Early Attendance,BIGSE27A30,Is every request from business a project?
+BIG5: Certificate Early Attendance,BIGSE28A30,Labor and Employment Issues
+BIG5: Certificate Early Attendance,BIGSE29A30,Defining Health & Safety Leadership Behaviors
+BIG5: Certificate Early Attendance,BIGSE30A30,The BIM 4D modeling though the project life cycle
+BIG5: Certificate Early Attendance,BIGSE31A30,Sustainability Beyond Design
+BIG5: Certificate Early Attendance,BIGSE32A30,Indoor Environmental Quality (IEQ) Strategies for LEED v4
+BIG5: Certificate Early Attendance,BIGSE33A30,BIM Between Theory and Practice
+BIG5: Certificate Early Attendance,BIGSE34A30,Establishing a Difference that can be preserved
+BIG5: Certificate Early Attendance,BIGSE35A30,Do Complex Innovative Building Envelopes Comprise Health & Safety?
+BIG5: Certificate Early Attendance,BIGSE36A30,IoT-izing The Construction Industry
+BIG5: Certificate Early Attendance,BIGSE37A30,Smart Construction & Architecture
+BIG5: Certificate Early Attendance,BIGSE38A30,Energy and Atmosphere Strategies for LEED v4
+BIG5: Certificate Early Attendance,BIGSE39A30,Leadership to Drive Projects and Project Management Career to Effective Change
+BIG5: Certificate Early Attendance,BIGSE40A30,How to do Business in the UAE
+BIG5: Certificate Early Attendance,BIGSE41A30,Social Media in the Contruction Field
+BIG5: Certificate Early Attendance,BIGSE42A30,SCM Contribution to Successful Project Management & Analyzing The extensive Project Pipeline
+BIG5: Certificate Early Attendance,BIGSE43A30,BIM Case study of office with warehouse
+BIG5: Certificate Early Attendance,BIGSE44A30,Efficient and sustainable cooling
+BIG5: Certificate Early Attendance,BIGSE45A30,Sustainability Vs. Life Riddles
+BIG5: Certificate Early Attendance,BIGSE46A30,Controlling Productivity
+BIG5: Certificate Early Attendance,BIGSE47A30,Recognizing PPP as a driver for sustainable infrastructure industry
+BIG5: Certificate Early Attendance,BIGSE48A30,
+BIG5: Certificate Early Attendance,BIGSE49A30,Integrating Material and Textural Information for As-Built BIM Using IR Sensing
+BIG5: Certificate Early Attendance,BIGSE50A30,Significance of MEP - What's next for District Cooling?
+BIG5: Certificate Early Attendance,BIGSE51A30,Evaluating the impact and application of sustainable development in the GCCs
+BIG5: Certificate Early Attendance,BIGSE52A30,Intrapreneurship - Need of the Hour in Program Management
+BIG5: Certificate Early Attendance,BIGSE53A30,How to use licensing to sell your products
+BIG5: Certificate Early Attendance,BIGSE54A30,IOT & Drones Logistics Technologies in Construction
+BIG5: Certificate Early Attendance,BIGSE55A30,Bim4Analysis
+BIG5: Certificate Early Attendance,BIGSE56A30,Energy Efficient HVAC System's for Healthcare
+BIG5: Certificate Early Attendance,BIGSE57A30,Layering the Future
+BIG5: Certificate Early Attendance,BIGSE58A30,Construction Projects and their impact on project's constraints
+BIG5: Certificate Early Attendance,BIGSE59A30,Effective Marketing strategies in the Construction Industry
+BIG5: Certificate Early Attendance,BIGSE60A30,Supply-chain management in construction industry
+BIG5: Certificate Early Attendance,BIGSE61A30,What's wrong with BIM? - Challenges in the Adoption of a new Planning Paradigm
+BIG5: Certificate Early Attendance,BIGSE62A30,MEP in transport Infrastructure
+BIG5: Certificate Early Attendance,BIGSE63A30,Business Opportunitires and growth areas in the Construction Industry in today's New Normal
+BIG5: Certificate Early Attendance,BIGSE64A30,InstitutionalizingProject Management
+BIG5: Certificate Early Attendance,BIGSE65A30,Finance for non-finance managers
+BIG5: Certificate Early Attendance,BIGSE66A30,Procurement transformation Strategies
+BIG5: Certificate Early Attendance,BIGSE67A30,How to get the best out of BIM intelligence in design process and taking it forward in construction
+BIG5: Certificate Early Attendance,BIGSE68A30,"MEP trade, challenges, trends and solutions"
+BIG5: Certificate Early Attendance,BIGSE69A30,Regional Technical Solutions for LEED
+BIG5: Certificate Early Attendance,BIGSE70A30,Does your strategy performance truly reflect your portfolio performance?
+BIG5: Certificate Early Attendance,BIGSE71A30,Future of Retail Design and Trends
+BIG5: Certificate Early Attendance,BIGSE72A30,Logistics Planning of Construction Projects for Expo 2020
+BIG5: Certificate Early Attendance,BIGSE73A30,BIM for Construction
+BIG5: Certificate Early Attendance,BIGSE74A30,Comparative Analysis of Tradtional Vs. Sustainable Chilled Water Plant Design
+BIG5: Certificate Early Attendance,BIGSE75A30,Tools for sustainable development at district level
+BIG5: Certificate Early Attendance,BIGSE76A30,Towards Lean Contruction: the furutre of BIM-based project plannin and control
+BIG5: Certificate Late Attendance,BIGSE1B,Keys to resolving the inevitable construction dispute
+BIG5: Certificate Late Attendance,BIGSE2B,Condition of assets a growing concern
+BIG5: Certificate Late Attendance,BIGSE3B,BIM as information management and design process
+BIG5: Certificate Late Attendance,BIGSE4B,Architectural Advancement: Creating an Iconic Development
+BIG5: Certificate Late Attendance,BIGSE5B,Zero Carbon Buildings: Management of Design and Construction
+BIG5: Certificate Late Attendance,BIGSE6B,Implementation Practical Risk Management for Mega Construction Projects: Project Management
+BIG5: Certificate Late Attendance,BIGSE7B,Refurbishment Engineering and Sustainability
+BIG5: Certificate Late Attendance,BIGSE8B,Construction Quality Management
+BIG5: Certificate Late Attendance,BIGSE9B,Good practice during work at quarries
+BIG5: Certificate Late Attendance,BIGSE10B,How BIM is transforming the construction industry
+BIG5: Certificate Late Attendance,BIGSE11B,Adaptive Architecture: convertible structures
+BIG5: Certificate Late Attendance,BIGSE12B,The Importance of Reserve Fund Studies in Protecting Property Value
+BIG5: Certificate Late Attendance,BIGSE13B,Sidestep Complexity
+BIG5: Certificate Late Attendance,BIGSE14B,LEED for Building Owners and Client Representatives
+BIG5: Certificate Late Attendance,BIGSE15B,How to import and export from the U.K & Europe
+BIG5: Certificate Late Attendance,BIGSE16B,Driving Culture change through Leadership
+BIG5: Certificate Late Attendance,BIGSE17B,"BIM there, done that"
+BIG5: Certificate Late Attendance,BIGSE18B,Improving Facade performance through design
+BIG5: Certificate Late Attendance,BIGSE19B,Importance of energy audits and energy reduction strategies
+BIG5: Certificate Late Attendance,BIGSE20B,How to make PMOs critical to Business: The Business PMO
+BIG5: Certificate Late Attendance,BIGSE21B,LEED for Contractors
+BIG5: Certificate Late Attendance,BIGSE22B,Sustainability for C-level Executive
+BIG5: Certificate Late Attendance,BIGSE23B,All you need to know about the new UAE Fire Code
+BIG5: Certificate Late Attendance,BIGSE24B,BIM for Coordination - from Concept to Construction
+BIG5: Certificate Late Attendance,BIGSE25B,"Transformation, Translation and Representation"
+BIG5: Certificate Late Attendance,BIGSE26B,Leapfrogging the residential new construction industry in the GCC to a sustainable future
+BIG5: Certificate Late Attendance,BIGSE27B,Is every request from business a project?
+BIG5: Certificate Late Attendance,BIGSE28B,Labor and Employment Issues
+BIG5: Certificate Late Attendance,BIGSE29B,Defining Health & Safety Leadership Behaviors
+BIG5: Certificate Late Attendance,BIGSE30B,The BIM 4D modeling though the project life cycle
+BIG5: Certificate Late Attendance,BIGSE31B,Sustainability Beyond Design
+BIG5: Certificate Late Attendance,BIGSE32B,Indoor Environmental Quality (IEQ) Strategies for LEED v4
+BIG5: Certificate Late Attendance,BIGSE33B,BIM Between Theory and Practice
+BIG5: Certificate Late Attendance,BIGSE34B,Establishing a Difference that can be preserved
+BIG5: Certificate Late Attendance,BIGSE35B,Do Complex Innovative Building Envelopes Comprise Health & Safety?
+BIG5: Certificate Late Attendance,BIGSE36B,IoT-izing The Construction Industry
+BIG5: Certificate Late Attendance,BIGSE37B,Smart Construction & Architecture
+BIG5: Certificate Late Attendance,BIGSE38B,Energy and Atmosphere Strategies for LEED v4
+BIG5: Certificate Late Attendance,BIGSE39B,Leadership to Drive Projects and Project Management Career to Effective Change
+BIG5: Certificate Late Attendance,BIGSE40B,How to do Business in the UAE
+BIG5: Certificate Late Attendance,BIGSE41B,Social Media in the Contruction Field
+BIG5: Certificate Late Attendance,BIGSE42B,SCM Contribution to Successful Project Management & Analyzing The extensive Project Pipeline
+BIG5: Certificate Late Attendance,BIGSE43B,BIM Case study of office with warehouse
+BIG5: Certificate Late Attendance,BIGSE44B,Efficient and sustainable cooling
+BIG5: Certificate Late Attendance,BIGSE45B,Sustainability Vs. Life Riddles
+BIG5: Certificate Late Attendance,BIGSE46B,Controlling Productivity
+BIG5: Certificate Late Attendance,BIGSE47B,Recognizing PPP as a driver for sustainable infrastructure industry
+BIG5: Certificate Late Attendance,BIGSE48B,
+BIG5: Certificate Late Attendance,BIGSE49B,Integrating Material and Textural Information for As-Built BIM Using IR Sensing
+BIG5: Certificate Late Attendance,BIGSE50B,Significance of MEP - What's next for District Cooling?
+BIG5: Certificate Late Attendance,BIGSE51B,Evaluating the impact and application of sustainable development in the GCCs
+BIG5: Certificate Late Attendance,BIGSE52B,Intrapreneurship - Need of the Hour in Program Management
+BIG5: Certificate Late Attendance,BIGSE53B,How to use licensing to sell your products
+BIG5: Certificate Late Attendance,BIGSE54B,IOT & Drones Logistics Technologies in Construction
+BIG5: Certificate Late Attendance,BIGSE55B,Bim4Analysis
+BIG5: Certificate Late Attendance,BIGSE56B,Energy Efficient HVAC System's for Healthcare
+BIG5: Certificate Late Attendance,BIGSE57B,Layering the Future
+BIG5: Certificate Late Attendance,BIGSE58B,Construction Projects and their impact on project's constraints
+BIG5: Certificate Late Attendance,BIGSE59B,Effective Marketing strategies in the Construction Industry
+BIG5: Certificate Late Attendance,BIGSE60B,Supply-chain management in construction industry
+BIG5: Certificate Late Attendance,BIGSE61B,What's wrong with BIM? - Challenges in the Adoption of a new Planning Paradigm
+BIG5: Certificate Late Attendance,BIGSE62B,MEP in transport Infrastructure
+BIG5: Certificate Late Attendance,BIGSE63B,Business Opportunitires and growth areas in the Construction Industry in today's New Normal
+BIG5: Certificate Late Attendance,BIGSE64B,InstitutionalizingProject Management
+BIG5: Certificate Late Attendance,BIGSE65B,Finance for non-finance managers
+BIG5: Certificate Late Attendance,BIGSE66B,Procurement transformation Strategies
+BIG5: Certificate Late Attendance,BIGSE67B,How to get the best out of BIM intelligence in design process and taking it forward in construction
+BIG5: Certificate Late Attendance,BIGSE68B,"MEP trade, challenges, trends and solutions"
+BIG5: Certificate Late Attendance,BIGSE69B,Regional Technical Solutions for LEED
+BIG5: Certificate Late Attendance,BIGSE70B,Does your strategy performance truly reflect your portfolio performance?
+BIG5: Certificate Late Attendance,BIGSE71B,Future of Retail Design and Trends
+BIG5: Certificate Late Attendance,BIGSE72B,Logistics Planning of Construction Projects for Expo 2020
+BIG5: Certificate Late Attendance,BIGSE73B,BIM for Construction
+BIG5: Certificate Late Attendance,BIGSE74B,Comparative Analysis of Tradtional Vs. Sustainable Chilled Water Plant Design
+BIG5: Certificate Late Attendance,BIGSE75B,Tools for sustainable development at district level
+BIG5: Certificate Late Attendance,BIGSE76B,Towards Lean Contruction: the furutre of BIM-based project plannin and control
+BIG5: Certificate Early Attendance - Collected,XBIGSE1A30,Keys to resolving the inevitable construction dispute
+BIG5: Certificate Early Attendance - Collected,XBIGSE2A30,Condition of assets a growing concern
+BIG5: Certificate Early Attendance - Collected,XBIGSE3A30,BIM as information management and design process
+BIG5: Certificate Early Attendance - Collected,XBIGSE4A30,Architectural Advancement: Creating an Iconic Development
+BIG5: Certificate Early Attendance - Collected,XBIGSE5A30,Zero Carbon Buildings: Management of Design and Construction
+BIG5: Certificate Early Attendance - Collected,XBIGSE6A30,Implementation Practical Risk Management for Mega Construction Projects: Project Management
+BIG5: Certificate Early Attendance - Collected,XBIGSE7A30,Refurbishment Engineering and Sustainability
+BIG5: Certificate Early Attendance - Collected,XBIGSE8A30,Construction Quality Management
+BIG5: Certificate Early Attendance - Collected,XBIGSE9A30,Good practice during work at quarries
+BIG5: Certificate Early Attendance - Collected,XBIGSE10A30,How BIM is transforming the construction industry
+BIG5: Certificate Early Attendance - Collected,XBIGSE11A30,Adaptive Architecture: convertible structures
+BIG5: Certificate Early Attendance - Collected,XBIGSE12A30,The Importance of Reserve Fund Studies in Protecting Property Value
+BIG5: Certificate Early Attendance - Collected,XBIGSE13A30,Sidestep Complexity
+BIG5: Certificate Early Attendance - Collected,XBIGSE14A30,LEED for Building Owners and Client Representatives
+BIG5: Certificate Early Attendance - Collected,XBIGSE15A30,How to import and export from the U.K & Europe
+BIG5: Certificate Early Attendance - Collected,XBIGSE16A30,Driving Culture change through Leadership
+BIG5: Certificate Early Attendance - Collected,XBIGSE17A30,"BIM there, done that"
+BIG5: Certificate Early Attendance - Collected,XBIGSE18A30,Improving Facade performance through design
+BIG5: Certificate Early Attendance - Collected,XBIGSE19A30,Importance of energy audits and energy reduction strategies
+BIG5: Certificate Early Attendance - Collected,XBIGSE20A30,How to make PMOs critical to Business: The Business PMO
+BIG5: Certificate Early Attendance - Collected,XBIGSE21A30,LEED for Contractors
+BIG5: Certificate Early Attendance - Collected,XBIGSE22A30,Sustainability for C-level Executive
+BIG5: Certificate Early Attendance - Collected,XBIGSE23A30,All you need to know about the new UAE Fire Code
+BIG5: Certificate Early Attendance - Collected,XBIGSE24A30,BIM for Coordination - from Concept to Construction
+BIG5: Certificate Early Attendance - Collected,XBIGSE25A30,"Transformation, Translation and Representation"
+BIG5: Certificate Early Attendance - Collected,XBIGSE26A30,Leapfrogging the residential new construction industry in the GCC to a sustainable future
+BIG5: Certificate Early Attendance - Collected,XBIGSE27A30,Is every request from business a project?
+BIG5: Certificate Early Attendance - Collected,XBIGSE28A30,Labor and Employment Issues
+BIG5: Certificate Early Attendance - Collected,XBIGSE29A30,Defining Health & Safety Leadership Behaviors
+BIG5: Certificate Early Attendance - Collected,XBIGSE30A30,The BIM 4D modeling though the project life cycle
+BIG5: Certificate Early Attendance - Collected,XBIGSE31A30,Sustainability Beyond Design
+BIG5: Certificate Early Attendance - Collected,XBIGSE32A30,Indoor Environmental Quality (IEQ) Strategies for LEED v4
+BIG5: Certificate Early Attendance - Collected,XBIGSE33A30,BIM Between Theory and Practice
+BIG5: Certificate Early Attendance - Collected,XBIGSE34A30,Establishing a Difference that can be preserved
+BIG5: Certificate Early Attendance - Collected,XBIGSE35A30,Do Complex Innovative Building Envelopes Comprise Health & Safety?
+BIG5: Certificate Early Attendance - Collected,XBIGSE36A30,IoT-izing The Construction Industry
+BIG5: Certificate Early Attendance - Collected,XBIGSE37A30,Smart Construction & Architecture
+BIG5: Certificate Early Attendance - Collected,XBIGSE38A30,Energy and Atmosphere Strategies for LEED v4
+BIG5: Certificate Early Attendance - Collected,XBIGSE39A30,Leadership to Drive Projects and Project Management Career to Effective Change
+BIG5: Certificate Early Attendance - Collected,XBIGSE40A30,How to do Business in the UAE
+BIG5: Certificate Early Attendance - Collected,XBIGSE41A30,Social Media in the Contruction Field
+BIG5: Certificate Early Attendance - Collected,XBIGSE42A30,SCM Contribution to Successful Project Management & Analyzing The extensive Project Pipeline
+BIG5: Certificate Early Attendance - Collected,XBIGSE43A30,BIM Case study of office with warehouse
+BIG5: Certificate Early Attendance - Collected,XBIGSE44A30,Efficient and sustainable cooling
+BIG5: Certificate Early Attendance - Collected,XBIGSE45A30,Sustainability Vs. Life Riddles
+BIG5: Certificate Early Attendance - Collected,XBIGSE46A30,Controlling Productivity
+BIG5: Certificate Early Attendance - Collected,XBIGSE47A30,Recognizing PPP as a driver for sustainable infrastructure industry
+BIG5: Certificate Early Attendance - Collected,XBIGSE48A30,
+BIG5: Certificate Early Attendance - Collected,XBIGSE49A30,Integrating Material and Textural Information for As-Built BIM Using IR Sensing
+BIG5: Certificate Early Attendance - Collected,XBIGSE50A30,Significance of MEP - What's next for District Cooling?
+BIG5: Certificate Early Attendance - Collected,XBIGSE51A30,Evaluating the impact and application of sustainable development in the GCCs
+BIG5: Certificate Early Attendance - Collected,XBIGSE52A30,Intrapreneurship - Need of the Hour in Program Management
+BIG5: Certificate Early Attendance - Collected,XBIGSE53A30,How to use licensing to sell your products
+BIG5: Certificate Early Attendance - Collected,XBIGSE54A30,IOT & Drones Logistics Technologies in Construction
+BIG5: Certificate Early Attendance - Collected,XBIGSE55A30,Bim4Analysis
+BIG5: Certificate Early Attendance - Collected,XBIGSE56A30,Energy Efficient HVAC System's for Healthcare
+BIG5: Certificate Early Attendance - Collected,XBIGSE57A30,Layering the Future
+BIG5: Certificate Early Attendance - Collected,XBIGSE58A30,Construction Projects and their impact on project's constraints
+BIG5: Certificate Early Attendance - Collected,XBIGSE59A30,Effective Marketing strategies in the Construction Industry
+BIG5: Certificate Early Attendance - Collected,XBIGSE60A30,Supply-chain management in construction industry
+BIG5: Certificate Early Attendance - Collected,XBIGSE61A30,What's wrong with BIM? - Challenges in the Adoption of a new Planning Paradigm
+BIG5: Certificate Early Attendance - Collected,XBIGSE62A30,MEP in transport Infrastructure
+BIG5: Certificate Early Attendance - Collected,XBIGSE63A30,Business Opportunitires and growth areas in the Construction Industry in today's New Normal
+BIG5: Certificate Early Attendance - Collected,XBIGSE64A30,InstitutionalizingProject Management
+BIG5: Certificate Early Attendance - Collected,XBIGSE65A30,Finance for non-finance managers
+BIG5: Certificate Early Attendance - Collected,XBIGSE66A30,Procurement transformation Strategies
+BIG5: Certificate Early Attendance - Collected,XBIGSE67A30,How to get the best out of BIM intelligence in design process and taking it forward in construction
+BIG5: Certificate Early Attendance - Collected,XBIGSE68A30,"MEP trade, challenges, trends and solutions"
+BIG5: Certificate Early Attendance - Collected,XBIGSE69A30,Regional Technical Solutions for LEED
+BIG5: Certificate Early Attendance - Collected,XBIGSE70A30,Does your strategy performance truly reflect your portfolio performance?
+BIG5: Certificate Early Attendance - Collected,XBIGSE71A30,Future of Retail Design and Trends
+BIG5: Certificate Early Attendance - Collected,XBIGSE72A30,Logistics Planning of Construction Projects for Expo 2020
+BIG5: Certificate Early Attendance - Collected,XBIGSE73A30,BIM for Construction
+BIG5: Certificate Early Attendance - Collected,XBIGSE74A30,Comparative Analysis of Tradtional Vs. Sustainable Chilled Water Plant Design
+BIG5: Certificate Early Attendance - Collected,XBIGSE75A30,Tools for sustainable development at district level
+BIG5: Certificate Early Attendance - Collected,XBIGSE76A30,Towards Lean Contruction: the furutre of BIM-based project plannin and control
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE1A30,Keys to resolving the inevitable construction dispute
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE2A30,Condition of assets a growing concern
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE3A30,BIM as information management and design process
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE4A30,Architectural Advancement: Creating an Iconic Development
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE5A30,Zero Carbon Buildings: Management of Design and Construction
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE6A30,Implementation Practical Risk Management for Mega Construction Projects: Project Management
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE7A30,Refurbishment Engineering and Sustainability
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE8A30,Construction Quality Management
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE9A30,Good practice during work at quarries
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE10A30,How BIM is transforming the construction industry
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE11A30,Adaptive Architecture: convertible structures
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE12A30,The Importance of Reserve Fund Studies in Protecting Property Value
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE13A30,Sidestep Complexity
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE14A30,LEED for Building Owners and Client Representatives
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE15A30,How to import and export from the U.K & Europe
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE16A30,Driving Culture change through Leadership
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE17A30,"BIM there, done that"
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE18A30,Improving Facade performance through design
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE19A30,Importance of energy audits and energy reduction strategies
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE20A30,How to make PMOs critical to Business: The Business PMO
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE21A30,LEED for Contractors
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE22A30,Sustainability for C-level Executive
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE23A30,All you need to know about the new UAE Fire Code
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE24A30,BIM for Coordination - from Concept to Construction
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE25A30,"Transformation, Translation and Representation"
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE26A30,Leapfrogging the residential new construction industry in the GCC to a sustainable future
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE27A30,Is every request from business a project?
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE28A30,Labor and Employment Issues
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE29A30,Defining Health & Safety Leadership Behaviors
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE30A30,The BIM 4D modeling though the project life cycle
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE31A30,Sustainability Beyond Design
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE32A30,Indoor Environmental Quality (IEQ) Strategies for LEED v4
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE33A30,BIM Between Theory and Practice
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE34A30,Establishing a Difference that can be preserved
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE35A30,Do Complex Innovative Building Envelopes Comprise Health & Safety?
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE36A30,IoT-izing The Construction Industry
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE37A30,Smart Construction & Architecture
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE38A30,Energy and Atmosphere Strategies for LEED v4
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE39A30,Leadership to Drive Projects and Project Management Career to Effective Change
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE40A30,How to do Business in the UAE
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE41A30,Social Media in the Contruction Field
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE42A30,SCM Contribution to Successful Project Management & Analyzing The extensive Project Pipeline
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE43A30,BIM Case study of office with warehouse
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE44A30,Efficient and sustainable cooling
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE45A30,Sustainability Vs. Life Riddles
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE46A30,Controlling Productivity
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE47A30,Recognizing PPP as a driver for sustainable infrastructure industry
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE48A30,
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE49A30,Integrating Material and Textural Information for As-Built BIM Using IR Sensing
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE50A30,Significance of MEP - What's next for District Cooling?
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE51A30,Evaluating the impact and application of sustainable development in the GCCs
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE52A30,Intrapreneurship - Need of the Hour in Program Management
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE53A30,How to use licensing to sell your products
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE54A30,IOT & Drones Logistics Technologies in Construction
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE55A30,Bim4Analysis
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE56A30,Energy Efficient HVAC System's for Healthcare
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE57A30,Layering the Future
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE58A30,Construction Projects and their impact on project's constraints
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE59A30,Effective Marketing strategies in the Construction Industry
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE60A30,Supply-chain management in construction industry
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE61A30,What's wrong with BIM? - Challenges in the Adoption of a new Planning Paradigm
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE62A30,MEP in transport Infrastructure
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE63A30,Business Opportunitires and growth areas in the Construction Industry in today's New Normal
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE64A30,InstitutionalizingProject Management
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE65A30,Finance for non-finance managers
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE66A30,Procurement transformation Strategies
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE67A30,How to get the best out of BIM intelligence in design process and taking it forward in construction
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE68A30,"MEP trade, challenges, trends and solutions"
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE69A30,Regional Technical Solutions for LEED
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE70A30,Does your strategy performance truly reflect your portfolio performance?
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE71A30,Future of Retail Design and Trends
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE72A30,Logistics Planning of Construction Projects for Expo 2020
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE73A30,BIM for Construction
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE74A30,Comparative Analysis of Tradtional Vs. Sustainable Chilled Water Plant Design
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE75A30,Tools for sustainable development at district level
+BIG5: Certificate Early Attendance - Printed,PRINT_BIGSE76A30,Towards Lean Contruction: the furutre of BIM-based project plannin and control
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE1A30,Keys to resolving the inevitable construction dispute
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE2A30,Condition of assets a growing concern
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE3A30,BIM as information management and design process
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE4A30,Architectural Advancement: Creating an Iconic Development
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE5A30,Zero Carbon Buildings: Management of Design and Construction
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE6A30,Implementation Practical Risk Management for Mega Construction Projects: Project Management
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE7A30,Refurbishment Engineering and Sustainability
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE8A30,Construction Quality Management
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE9A30,Good practice during work at quarries
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE10A30,How BIM is transforming the construction industry
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE11A30,Adaptive Architecture: convertible structures
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE12A30,The Importance of Reserve Fund Studies in Protecting Property Value
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE13A30,Sidestep Complexity
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE14A30,LEED for Building Owners and Client Representatives
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE15A30,How to import and export from the U.K & Europe
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE16A30,Driving Culture change through Leadership
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE17A30,"BIM there, done that"
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE18A30,Improving Facade performance through design
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE19A30,Importance of energy audits and energy reduction strategies
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE20A30,How to make PMOs critical to Business: The Business PMO
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE21A30,LEED for Contractors
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE22A30,Sustainability for C-level Executive
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE23A30,All you need to know about the new UAE Fire Code
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE24A30,BIM for Coordination - from Concept to Construction
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE25A30,"Transformation, Translation and Representation"
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE26A30,Leapfrogging the residential new construction industry in the GCC to a sustainable future
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE27A30,Is every request from business a project?
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE28A30,Labor and Employment Issues
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE29A30,Defining Health & Safety Leadership Behaviors
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE30A30,The BIM 4D modeling though the project life cycle
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE31A30,Sustainability Beyond Design
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE32A30,Indoor Environmental Quality (IEQ) Strategies for LEED v4
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE33A30,BIM Between Theory and Practice
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE34A30,Establishing a Difference that can be preserved
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE35A30,Do Complex Innovative Building Envelopes Comprise Health & Safety?
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE36A30,IoT-izing The Construction Industry
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE37A30,Smart Construction & Architecture
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE38A30,Energy and Atmosphere Strategies for LEED v4
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE39A30,Leadership to Drive Projects and Project Management Career to Effective Change
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE40A30,How to do Business in the UAE
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE41A30,Social Media in the Contruction Field
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE42A30,SCM Contribution to Successful Project Management & Analyzing The extensive Project Pipeline
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE43A30,BIM Case study of office with warehouse
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE44A30,Efficient and sustainable cooling
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE45A30,Sustainability Vs. Life Riddles
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE46A30,Controlling Productivity
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE47A30,Recognizing PPP as a driver for sustainable infrastructure industry
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE48A30,
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE49A30,Integrating Material and Textural Information for As-Built BIM Using IR Sensing
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE50A30,Significance of MEP - What's next for District Cooling?
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE51A30,Evaluating the impact and application of sustainable development in the GCCs
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE52A30,Intrapreneurship - Need of the Hour in Program Management
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE53A30,How to use licensing to sell your products
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE54A30,IOT & Drones Logistics Technologies in Construction
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE55A30,Bim4Analysis
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE56A30,Energy Efficient HVAC System's for Healthcare
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE57A30,Layering the Future
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE58A30,Construction Projects and their impact on project's constraints
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE59A30,Effective Marketing strategies in the Construction Industry
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE60A30,Supply-chain management in construction industry
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE61A30,What's wrong with BIM? - Challenges in the Adoption of a new Planning Paradigm
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE62A30,MEP in transport Infrastructure
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE63A30,Business Opportunitires and growth areas in the Construction Industry in today's New Normal
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE64A30,InstitutionalizingProject Management
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE65A30,Finance for non-finance managers
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE66A30,Procurement transformation Strategies
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE67A30,How to get the best out of BIM intelligence in design process and taking it forward in construction
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE68A30,"MEP trade, challenges, trends and solutions"
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE69A30,Regional Technical Solutions for LEED
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE70A30,Does your strategy performance truly reflect your portfolio performance?
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE71A30,Future of Retail Design and Trends
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE72A30,Logistics Planning of Construction Projects for Expo 2020
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE73A30,BIM for Construction
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE74A30,Comparative Analysis of Tradtional Vs. Sustainable Chilled Water Plant Design
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE75A30,Tools for sustainable development at district level
+BIG5: Certificate Early Attendance - Emailed,EMAIL_BIGSE76A30,Towards Lean Contruction: the furutre of BIM-based project plannin and control
+MEC: Certificate Early Attendance,MECS1A30,How to manage BIM for Concrete Construction (MEC)
+MEC: Certificate Early Attendance,MECS2A30,Achieving increased concrete durability and serviceability by the use of improved construction materials and techniques (MEC)
+MEC: Certificate Early Attendance,MECS3A30,Commercial vehicle lubricants in a low Sulphur diesel environment (PMV)
+MEC: Certificate Early Attendance,MECS4A30,Can Performance-Based Specifications be implemented for Durability of Concrete? Will it work? (MEC)
+MEC: Certificate Early Attendance,MECS5A30,Enhancement of Reinforced Concrete Infrastructure Service Life in the GCC Countries
+MEC: Certificate Early Attendance,MECS6A30,Construction and demolition waste recycling – Does it make a business case? (MEC)
+MEC: Certificate Early Attendance,MECS7A30,Work at Height Safety (PMV)
+MEC: Certificate Early Attendance,MECS8A30,Middle East Concrete Market (MEC)
+MEC: Certificate Early Attendance,MECS9A30,Robotics and Applications (PMV)
+MEC: Certificate Early Attendance,MECS10A30,The Importance of Effective Construction Management in Today’s Competitive Marketplace”.
+MEC: Certificate Early Attendance,MECS11A30,Hybrid System Injection - A New Technology (PMV)
+MEC: Certificate Early Attendance,MECS12A30,The Development of the GRC Industry – 40 years on (MEC)
+MEC: Certificate Early Attendance,MECS13A30,Equipment management & Maintenance (PMV)
+MEC: Certificate Early Attendance,MECS14A30,Non-destructive testing: Quality control & structural evaluation (MEC)
+MEC: Certificate Early Attendance,MECS15A30,Power of Coolants in the construction industry + Coolants DEMO (coolants v/s water v/s other low quality coolants) (PMV)
+MEC: Certificate Early Attendance,MECS16A30,Mobile Elevating Work Platform (MEWP) Fleet Management (PMV)
+MEC: Certificate Early Attendance,MECS17A30,Advantages of using dry mix mortar (MEC)
+MEC: Certificate Early Attendance,MECS18A30,Influence of soil conditions on design of structures: (MEC)
+MEC: Certificate Early Attendance,MECS19A30,Green Building Materials (MEC)
+MEC: Certificate Early Attendance,MECS20A30,GRC – The Next Generation of Materials and Applications (MEC)
+MEC: Certificate Early Attendance,MECS21A30,Difference in lubricants formulated with Group 1 v/s Group 2 base oils and impact on your equipment’s (PANEL)  (PMV)
+MEC: Certificate Early Attendance,MECS22A30,Rail Less Overhead Crane Technology (PMV)
+MEC: Certificate Early Attendance,MECW1A30,Fabric Reinforced Cementitious Matrix (FRCM) Composites for Infrastructure Strengthening (MEC)
+MEC: Certificate Early Attendance,MECW2A30,Tips to Finance Machinery (PMV)
+MEC: Certificate Early Attendance,MECW3A30,How to continue to rebuild and prevent against natural disaster? (MEC)
+MEC: Certificate Early Attendance,MECW4A30,How to buy and sell construction equipment like a pro? (PMV)
+MEC: Certificate Early Attendance,MECW5A30,Challenges and Opportunities in the Concrete Industry (MEC)
+MEC: Certificate Early Attendance,MECW6A30, Recycled Concrete in Road Projects (MEC)
+MEC: Certificate Early Attendance,MECW7A30,Concrete Sustainability – The MASDAR Experience (MEC)
+MEC: Certificate Early Attendance,MECW8A30,Understanding the application and dynamics of Green Concrete in Dubai (Panel) (MEC)
+MEC: Certificate Early Attendance,MECW9A30,Durability of Concrete Structures in Aggressive Conditions with FRC (MEC)
+MEC: Certificate Early Attendance,MECW10A30,Practical approach towards Behavior Based Safety through OHS Culture Maturity Development Tools (PMV)
+MEC: Certificate Early Attendance,MECW11A30,Advanced Materials and Techniques for Reinforced Concrete Structures – Fiber Reinforced Polymer (FRP) (PANEL) (MEC)
+MEC: Certificate Early Attendance,MECW12A30,Evolution of the Tipper Body Weight for the Construction market worldwide (PMV)
+MEC: Certificate Early Attendance,MECW13A30,Innovative design methods of concrete – (Intro to Decorative Concrete) (MEC)
+MEC: Certificate Early Attendance,MECW14A30,Coloring options for Decorative Concrete - From boring to beautiful - adding color to new or existing concrete (MEC)
+MEC: Certificate Early Attendance,MECW15A30,Troubleshooting Coating & Sealer Failures - Coating Preparation (MEC)
+MEC: Certificate Early Attendance,MECW16A30,Trends in Polished Concrete (MEC)
+MEC: Certificate Early Attendance,MECW17A30,The role of telematics in the Middle East's Construction: Big Data and Big Machines (PMV)
+MEC: Certificate Early Attendance,MECW18A30,Concrete Repair (MEC)
+MEC: Certificate Early Attendance,MECW19A30,Arbitration and dispute resolutions in construction claims (MEC)
+MEC: Certificate Early Attendance,MECW20A30,Efforts towards low emission targets: Clean construction Industry (PMV)
+MEC: Certificate Early Attendance,MECW21A30,Integrated reliability and durability based structural health monitoring in concrete structures:  case study bridges (MEC)
+MEC: Certificate Early Attendance,MECW22A30,Precast innovations for sustainability and competitiveness (MEC)
+MEC: Certificate Early Attendance,MECW23A30,Advance Dry Mortar Technology (MEC)
+MEC: Certificate Early Attendance,MECW24A30,Development of cement free polymer concrete for use in UAE (MEC)
+MEC: Certificate Early Attendance,MECW25A30,The heavy equipment health check
+MEC: Certificate Early Attendance,MECW26A30,Personal Protection Equipment (PPE) –health and safety (PMV)
+MEC: Certificate Early Attendance,MECW27A30,Demystifying the ‘fit for purpose’ obligations in EPC and Design & Build Contracts (MEC)
+MEC: Certificate Early Attendance,MECW28A30,Mobile Elevating Work Platform innovation & Development (PMV)
+MEC: Certificate Early Attendance,MECW29A30,Performance-Based Specifications: Case studies in the UAE (MEC)
+MEC: Certificate Early Attendance,MECW30A30,Advances in hot weather concreting (MEC)
+MEC: Certificate Early Attendance,MECW31A30,Carbon Dioxide Utilization in Ready-mix Concrete Production (MEC)
+MEC: Certificate Early Attendance,MECW32A30,"Polyurea, A miracle in coating industry (MEC)"
+MEC: Certificate Early Attendance - Collected,XMECS1A30,X-Coded:  How to manage BIM for Concrete Construction (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS2A30,X-Coded Achieving increased concrete durability and serviceability by the use of improved construction materials and techniques (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS3A30,X-Coded Commercial vehicle lubricants in a low Sulphur diesel environment (PMV)
+MEC: Certificate Early Attendance - Collected,XMECS4A30,X-Coded Can Performance-Based Specifications be implemented for Durability of Concrete? Will it work? (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS5A30,X-Coded Enhancement of Reinforced Concrete Infrastructure Service Life in the GCC Countries
+MEC: Certificate Early Attendance - Collected,XMECS6A30,X-Coded Construction and demolition waste recycling – Does it make a business case? (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS7A30,X-Coded Work at Height Safety (PMV)
+MEC: Certificate Early Attendance - Collected,XMECS8A30,X-Coded Middle East Concrete Market (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS9A30,X-Coded Robotics and Applications (PMV)
+MEC: Certificate Early Attendance - Collected,XMECS10A30,X-Coded The Importance of Effective Construction Management in Today’s Competitive Marketplace”.
+MEC: Certificate Early Attendance - Collected,XMECS11A30,X-Coded Hybrid System Injection - A New Technology (PMV)
+MEC: Certificate Early Attendance - Collected,XMECS12A30,X-Coded The Development of the GRC Industry – 40 years on (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS13A30,X-Coded Equipment management & Maintenance (PMV)
+MEC: Certificate Early Attendance - Collected,XMECS14A30,X-Coded Non-destructive testing: Quality control & structural evaluation (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS15A30,X-Coded Power of Coolants in the construction industry + Coolants DEMO (coolants v/s water v/s other low quality coolants) (PMV)
+MEC: Certificate Early Attendance - Collected,XMECS16A30,X-Coded Mobile Elevating Work Platform (MEWP) Fleet Management (PMV)
+MEC: Certificate Early Attendance - Collected,XMECS17A30,X-Coded Advantages of using dry mix mortar (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS18A30,X-Coded Influence of soil conditions on design of structures: (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS19A30,X-Coded Green Building Materials (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS20A30,X-Coded GRC – The Next Generation of Materials and Applications (MEC)
+MEC: Certificate Early Attendance - Collected,XMECS21A30,X-Coded Difference in lubricants formulated with Group 1 v/s Group 2 base oils and impact on your equipment’s (PANEL)  (PMV)
+MEC: Certificate Early Attendance - Collected,XMECS22A30,X-Coded Rail Less Overhead Crane Technology (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW1A30,X-Coded Fabric Reinforced Cementitious Matrix (FRCM) Composites for Infrastructure Strengthening (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW2A30,X-Coded Tips to Finance Machinery (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW3A30,X-Coded How to continue to rebuild and prevent against natural disaster? (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW4A30,X-Coded How to buy and sell construction equipment like a pro? (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW5A30,X-Coded Challenges and Opportunities in the Concrete Industry (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW6A30,X-Coded  Recycled Concrete in Road Projects (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW7A30,X-Coded Concrete Sustainability – The MASDAR Experience (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW8A30,X-Coded Understanding the application and dynamics of Green Concrete in Dubai (Panel) (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW9A30,X-Coded Durability of Concrete Structures in Aggressive Conditions with FRC (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW10A30,X-Coded Practical approach towards Behavior Based Safety through OHS Culture Maturity Development Tools (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW11A30,X-Coded Advanced Materials and Techniques for Reinforced Concrete Structures – Fiber Reinforced Polymer (FRP) (PANEL) (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW12A30,X-Coded Evolution of the Tipper Body Weight for the Construction market worldwide (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW13A30,X-Coded Innovative design methods of concrete – (Intro to Decorative Concrete) (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW14A30,X-Coded Coloring options for Decorative Concrete - From boring to beautiful - adding color to new or existing concrete (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW15A30,X-Coded Troubleshooting Coating & Sealer Failures - Coating Preparation (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW16A30,X-Coded Trends in Polished Concrete (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW17A30,X-Coded The role of telematics in the Middle East's Construction: Big Data and Big Machines (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW18A30,X-Coded Concrete Repair (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW19A30,X-Coded Arbitration and dispute resolutions in construction claims (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW20A30,X-Coded Efforts towards low emission targets: Clean construction Industry (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW21A30,X-Coded Integrated reliability and durability based structural health monitoring in concrete structures:  case study bridges (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW22A30,X-Coded Precast innovations for sustainability and competitiveness (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW23A30,X-Coded Advance Dry Mortar Technology (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW24A30,X-Coded Development of cement free polymer concrete for use in UAE (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW25A30,X-Coded The heavy equipment health check
+MEC: Certificate Early Attendance - Collected,XMECW26A30,X-Coded Personal Protection Equipment (PPE) –health and safety (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW27A30,X-Coded Demystifying the ‘fit for purpose’ obligations in EPC and Design & Build Contracts (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW28A30,X-Coded Mobile Elevating Work Platform innovation & Development (PMV)
+MEC: Certificate Early Attendance - Collected,XMECW29A30,X-Coded Performance-Based Specifications: Case studies in the UAE (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW30A30,X-Coded Advances in hot weather concreting (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW31A30,X-Coded Carbon Dioxide Utilization in Ready-mix Concrete Production (MEC)
+MEC: Certificate Early Attendance - Collected,XMECW32A30,"X-Coded Polyurea, A miracle in coating industry (MEC)"
+MEC: Certificate Early Attendance - Printed,PRINT_MECS1A30,PRINTED:   How to manage BIM for Concrete Construction (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS2A30,PRINTED:  Achieving increased concrete durability and serviceability by the use of improved construction materials and techniques (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS3A30,PRINTED:  Commercial vehicle lubricants in a low Sulphur diesel environment (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS4A30,PRINTED:  Can Performance-Based Specifications be implemented for Durability of Concrete? Will it work? (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS5A30,PRINTED:  Enhancement of Reinforced Concrete Infrastructure Service Life in the GCC Countries
+MEC: Certificate Early Attendance - Printed,PRINT_MECS6A30,PRINTED:  Construction and demolition waste recycling – Does it make a business case? (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS7A30,PRINTED:  Work at Height Safety (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS8A30,PRINTED:  Middle East Concrete Market (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS9A30,PRINTED:  Robotics and Applications (PMV)
+MEC: Certificate Early Attendance - Printed,XMEC1A30,X-Coded: Test 
+MEC: Certificate Early Attendance - Printed,PRINT_MECS11A30,PRINTED:  Hybrid System Injection - A New Technology (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS12A30,PRINTED:  The Development of the GRC Industry – 40 years on (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS13A30,PRINTED:  Equipment management & Maintenance (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS14A30,PRINTED:  Non-destructive testing: Quality control & structural evaluation (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS15A30,PRINTED:  Power of Coolants in the construction industry + Coolants DEMO (coolants v/s water v/s other low quality coolants) (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS16A30,PRINTED:  Mobile Elevating Work Platform (MEWP) Fleet Management (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS17A30,PRINTED:  Advantages of using dry mix mortar (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS18A30,PRINTED:  Influence of soil conditions on design of structures: (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS19A30,PRINTED:  Green Building Materials (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS20A30,PRINTED:  GRC – The Next Generation of Materials and Applications (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS21A30,PRINTED:  Difference in lubricants formulated with Group 1 v/s Group 2 base oils and impact on your equipment’s (PANEL)  (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECS22A30,PRINTED:  Rail Less Overhead Crane Technology (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW1A30,PRINTED:  Fabric Reinforced Cementitious Matrix (FRCM) Composites for Infrastructure Strengthening (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW2A30,PRINTED:  Tips to Finance Machinery (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW3A30,PRINTED:  How to continue to rebuild and prevent against natural disaster? (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW4A30,PRINTED:  How to buy and sell construction equipment like a pro? (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW5A30,PRINTED:  Challenges and Opportunities in the Concrete Industry (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW6A30,PRINTED:   Recycled Concrete in Road Projects (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW7A30,PRINTED:  Concrete Sustainability – The MASDAR Experience (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW8A30,PRINTED:  Understanding the application and dynamics of Green Concrete in Dubai (Panel) (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW9A30,PRINTED:  Durability of Concrete Structures in Aggressive Conditions with FRC (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW10A30,PRINTED:  Practical approach towards Behavior Based Safety through OHS Culture Maturity Development Tools (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW11A30,PRINTED:  Advanced Materials and Techniques for Reinforced Concrete Structures – Fiber Reinforced Polymer (FRP) (PANEL) (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW12A30,PRINTED:  Evolution of the Tipper Body Weight for the Construction market worldwide (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW13A30,PRINTED:  Innovative design methods of concrete – (Intro to Decorative Concrete) (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW14A30,PRINTED:  Coloring options for Decorative Concrete - From boring to beautiful - adding color to new or existing concrete (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW15A30,PRINTED:  Troubleshooting Coating & Sealer Failures - Coating Preparation (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW16A30,PRINTED:  Trends in Polished Concrete (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW17A30,PRINTED:  The role of telematics in the Middle East's Construction: Big Data and Big Machines (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW18A30,PRINTED:  Concrete Repair (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW19A30,PRINTED:  Arbitration and dispute resolutions in construction claims (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW20A30,PRINTED:  Efforts towards low emission targets: Clean construction Industry (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW21A30,PRINTED:  Integrated reliability and durability based structural health monitoring in concrete structures:  case study bridges (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW22A30,PRINTED:  Precast innovations for sustainability and competitiveness (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW23A30,PRINTED:  Advance Dry Mortar Technology (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW24A30,PRINTED:  Development of cement free polymer concrete for use in UAE (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW25A30,PRINTED:  The heavy equipment health check
+MEC: Certificate Early Attendance - Printed,PRINT_MECW26A30,PRINTED:  Personal Protection Equipment (PPE) –health and safety (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW27A30,PRINTED:  Demystifying the ‘fit for purpose’ obligations in EPC and Design & Build Contracts (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW28A30,PRINTED:  Mobile Elevating Work Platform innovation & Development (PMV)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW29A30,PRINTED:  Performance-Based Specifications: Case studies in the UAE (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW30A30,PRINTED:  Advances in hot weather concreting (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW31A30,PRINTED:  Carbon Dioxide Utilization in Ready-mix Concrete Production (MEC)
+MEC: Certificate Early Attendance - Printed,PRINT_MECW32A30,"PRINTED:  Polyurea, A miracle in coating industry (MEC)"
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS1A30,EMAILED:   How to manage BIM for Concrete Construction (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS2A30,EMAILED:  Achieving increased concrete durability and serviceability by the use of improved construction materials and techniques (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS3A30,EMAILED:  Commercial vehicle lubricants in a low Sulphur diesel environment (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS4A30,EMAILED:  Can Performance-Based Specifications be implemented for Durability of Concrete? Will it work? (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS5A30,EMAILED:  Enhancement of Reinforced Concrete Infrastructure Service Life in the GCC Countries
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS6A30,EMAILED:  Construction and demolition waste recycling – Does it make a business case? (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS7A30,EMAILED:  Work at Height Safety (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS8A30,EMAILED:  Middle East Concrete Market (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS9A30,EMAILED:  Robotics and Applications (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS10A30,EMAILED:  The Importance of Effective Construction Management in Today’s Competitive Marketplace”.
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS11A30,EMAILED:  Hybrid System Injection - A New Technology (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS12A30,EMAILED:  The Development of the GRC Industry – 40 years on (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MEC1A30,EMAILED: MEC1A30
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS14A30,EMAILED:  Non-destructive testing: Quality control & structural evaluation (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS15A30,EMAILED:  Power of Coolants in the construction industry + Coolants DEMO (coolants v/s water v/s other low quality coolants) (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS16A30,EMAILED:  Mobile Elevating Work Platform (MEWP) Fleet Management (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS17A30,EMAILED:  Advantages of using dry mix mortar (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS18A30,EMAILED:  Influence of soil conditions on design of structures: (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS19A30,EMAILED:  Green Building Materials (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS20A30,EMAILED:  GRC – The Next Generation of Materials and Applications (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS21A30,EMAILED:  Difference in lubricants formulated with Group 1 v/s Group 2 base oils and impact on your equipment’s (PANEL)  (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECS22A30,EMAILED:  Rail Less Overhead Crane Technology (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW1A30,EMAILED:  Fabric Reinforced Cementitious Matrix (FRCM) Composites for Infrastructure Strengthening (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW2A30,EMAILED:  Tips to Finance Machinery (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW3A30,EMAILED:  How to continue to rebuild and prevent against natural disaster? (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW4A30,EMAILED:  How to buy and sell construction equipment like a pro? (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW5A30,EMAILED:  Challenges and Opportunities in the Concrete Industry (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW6A30,EMAILED:   Recycled Concrete in Road Projects (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW7A30,EMAILED:  Concrete Sustainability – The MASDAR Experience (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW8A30,EMAILED:  Understanding the application and dynamics of Green Concrete in Dubai (Panel) (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW9A30,EMAILED:  Durability of Concrete Structures in Aggressive Conditions with FRC (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW10A30,EMAILED:  Practical approach towards Behavior Based Safety through OHS Culture Maturity Development Tools (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW11A30,EMAILED:  Advanced Materials and Techniques for Reinforced Concrete Structures – Fiber Reinforced Polymer (FRP) (PANEL) (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW12A30,EMAILED:  Evolution of the Tipper Body Weight for the Construction market worldwide (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW13A30,EMAILED:  Innovative design methods of concrete – (Intro to Decorative Concrete) (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW14A30,EMAILED:  Coloring options for Decorative Concrete - From boring to beautiful - adding color to new or existing concrete (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW15A30,EMAILED:  Troubleshooting Coating & Sealer Failures - Coating Preparation (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW16A30,EMAILED:  Trends in Polished Concrete (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW17A30,EMAILED:  The role of telematics in the Middle East's Construction: Big Data and Big Machines (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW18A30,EMAILED:  Concrete Repair (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW19A30,EMAILED:  Arbitration and dispute resolutions in construction claims (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW20A30,EMAILED:  Efforts towards low emission targets: Clean construction Industry (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW21A30,EMAILED:  Integrated reliability and durability based structural health monitoring in concrete structures:  case study bridges (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW22A30,EMAILED:  Precast innovations for sustainability and competitiveness (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW23A30,EMAILED:  Advance Dry Mortar Technology (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW24A30,EMAILED:  Development of cement free polymer concrete for use in UAE (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW25A30,EMAILED:  The heavy equipment health check
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW26A30,EMAILED:  Personal Protection Equipment (PPE) –health and safety (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW27A30,EMAILED:  Demystifying the ‘fit for purpose’ obligations in EPC and Design & Build Contracts (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW28A30,EMAILED:  Mobile Elevating Work Platform innovation & Development (PMV)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW29A30,EMAILED:  Performance-Based Specifications: Case studies in the UAE (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW30A30,EMAILED:  Advances in hot weather concreting (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW31A30,EMAILED:  Carbon Dioxide Utilization in Ready-mix Concrete Production (MEC)
+MEC: Certificate Early Attendance - Emailed,EMAIL_MECW32A30,"EMAILED:  Polyurea, A miracle in coating industry (MEC)"
+MEC: Certificate Early Attendance - Emailed,EMAIL_MEC1A30,EMAILED: MEC1A30
+Onsite Attendee Codes,ATTENDED,Attended
+Onsite Attendee Codes,NO_SHOW,No Show

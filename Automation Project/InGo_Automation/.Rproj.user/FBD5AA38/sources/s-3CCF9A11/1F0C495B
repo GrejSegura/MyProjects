@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508319221200.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4104257521",
+    "id" : "1F0C495B",
+    "lastKnownWriteTime" : 1508319310,
+    "last_content_update" : 1508319310356,
+    "path" : "~/Data Analysis/Automation Project/InGo_Automation/src/InGo_Auto_Process_v1.R",
+    "project_path" : "src/InGo_Auto_Process_v1.R",
+    "properties" : {
+        "cursorPosition" : "6,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

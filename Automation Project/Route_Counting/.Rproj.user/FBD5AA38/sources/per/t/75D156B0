@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508320059518.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1282215291",
+    "id" : "75D156B0",
+    "lastKnownWriteTime" : 1508319791,
+    "last_content_update" : 1508319791,
+    "path" : "~/GitHub/R-Exercise/Automation Project/Route_Counting/src/execute_routing_task.R",
+    "project_path" : "src/execute_routing_task.R",
+    "properties" : {
+        "cursorPosition" : "9,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

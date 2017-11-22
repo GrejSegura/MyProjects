@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508319024145.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3F039727",
+    "lastKnownWriteTime" : 1508319144,
+    "last_content_update" : 1508319144252,
+    "path" : "~/Data Analysis/Automation Project/InGo_Automation/src/execute_task.R",
+    "project_path" : "src/execute_task.R",
+    "properties" : {
+        "cursorPosition" : "2,3",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
