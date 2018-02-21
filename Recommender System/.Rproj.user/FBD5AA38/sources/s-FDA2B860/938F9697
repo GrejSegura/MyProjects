@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519118451803.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3999928536",
+    "id" : "938F9697",
+    "lastKnownWriteTime" : 1519217239,
+    "last_content_update" : 1519217239550,
+    "path" : "~/Data Analysis/BIG5 DUBAI 2017/Recommender/Recommender System/src/sample_recommender.R",
+    "project_path" : "src/sample_recommender.R",
+    "properties" : {
+        "cursorPosition" : "10,24",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

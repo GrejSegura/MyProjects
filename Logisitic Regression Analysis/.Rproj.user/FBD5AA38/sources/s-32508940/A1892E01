@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510480857081.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A1892E01",
+    "lastKnownWriteTime" : 1510636897,
+    "last_content_update" : 1510636897686,
+    "path" : "~/Data Analysis/GITEX 2017/Recommender/GITEX_recommender/src/recommender_system_v1.R",
+    "project_path" : "src/recommender_system_v1.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
