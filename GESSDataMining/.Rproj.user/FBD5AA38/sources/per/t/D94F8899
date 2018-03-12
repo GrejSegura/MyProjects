@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1517728956761.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2854582359",
+    "id" : "D94F8899",
+    "lastKnownWriteTime" : 1517740605,
+    "last_content_update" : 1517740605755,
+    "path" : "~/Data Analysis/GESS2018/GESS Data Mining/GESS DataMiningProject/src/3_heirarchical_clustering_v1.R",
+    "project_path" : "src/3_heirarchical_clustering_v1.R",
+    "properties" : {
+        "cursorPosition" : "60,22",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

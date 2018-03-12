@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509974921833.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2893363351",
+    "id" : "245B316B",
+    "lastKnownWriteTime" : 1509975042,
+    "last_content_update" : 1509975042231,
+    "path" : "~/Data Mining/BIG 5/BIG5_Data_Mining_2016/src/5_ada_boost_train.R",
+    "project_path" : "src/5_ada_boost_train.R",
+    "properties" : {
+        "cursorPosition" : "83,21",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

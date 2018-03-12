@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510058068162.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "234979936",
+    "id" : "9DDAE7E0",
+    "lastKnownWriteTime" : 1511779319,
+    "last_content_update" : 1511779319348,
+    "path" : "~/Data Mining/BIG 5/BIG5_Data_Mining_2016/src/2_randomForest_variable_importance.R",
+    "project_path" : "src/2_randomForest_variable_importance.R",
+    "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

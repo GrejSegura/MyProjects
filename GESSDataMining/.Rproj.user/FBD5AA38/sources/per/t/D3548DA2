@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1516270470010.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2923536495",
+    "id" : "D3548DA2",
+    "lastKnownWriteTime" : 1516517378,
+    "last_content_update" : 1516517378821,
+    "path" : "~/Data Analysis/GESS2018/GESS Data Mining/GESS DataMiningProject/src/1_preprocess v1.R",
+    "project_path" : "src/1_preprocess v1.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

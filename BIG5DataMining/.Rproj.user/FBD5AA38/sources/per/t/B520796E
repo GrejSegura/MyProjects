@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509523091583.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1586911152",
+    "id" : "B520796E",
+    "lastKnownWriteTime" : 1511412419,
+    "last_content_update" : 1511412419482,
+    "path" : "~/Data Mining/BIG 5/BIG5_Data_Mining_2016/src/3_logistic_regression_preProcess_varImp.R",
+    "project_path" : "src/3_logistic_regression_preProcess_varImp.R",
+    "properties" : {
+        "cursorPosition" : "153,0",
+        "scrollLine" : "135"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

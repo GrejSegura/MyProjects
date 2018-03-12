@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510056842989.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "434358798",
+    "id" : "90F2786E",
+    "lastKnownWriteTime" : 1511874842,
+    "last_content_update" : 1511874842089,
+    "path" : "~/Data Mining/BIG 5/BIG5_Data_Mining_2016/src/1_preprocess_v1.R",
+    "project_path" : "src/1_preprocess_v1.R",
+    "properties" : {
+        "cursorPosition" : "12,14",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

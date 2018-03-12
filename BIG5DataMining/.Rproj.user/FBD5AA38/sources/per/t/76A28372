@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509522089098.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1871555626",
+    "id" : "76A28372",
+    "lastKnownWriteTime" : 1509629068,
+    "last_content_update" : 1509629068350,
+    "path" : "~/Data Mining/BIG 5/BIG5_Data_Mining_2016/src/4_xg_boost_train v4 - grid_search_using lasso varImp.R",
+    "project_path" : "src/4_xg_boost_train v4 - grid_search_using lasso varImp.R",
+    "properties" : {
+        "cursorPosition" : "38,56",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
