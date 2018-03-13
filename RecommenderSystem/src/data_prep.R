@@ -16,10 +16,10 @@ library(data.table)
 library(xlsx)
 
 # load data
-sourceData <- read.csv("./dta/source.csv", sep = ",", stringsAsFactors = TRUE)
-touchData <- read.csv("./dta/touch.csv", sep = ",", stringsAsFactors = TRUE)
-convoData <- read.csv("./dta/convo.csv", sep = ",", stringsAsFactors = TRUE)
-codeData <- read.xlsx2("./dta/code.xlsx", sheetIndex = 1)
+sourceData <- read.csv("./input/source.csv", sep = ",", stringsAsFactors = TRUE)
+touchData <- read.csv("./input/touch.csv", sep = ",", stringsAsFactors = TRUE)
+convoData <- read.csv("./input/convo.csv", sep = ",", stringsAsFactors = TRUE)
+codeData <- read.xlsx2("./input/code.xlsx", sheetIndex = 1)
 
 # convert to data.table
 sourceData <- setDT(sourceData)
@@ -42,6 +42,8 @@ summary(sourceData$barcode)
 sourceData$barLength <- nchar(sourceData$barcode)
 summary(as.factor(sourceData$barLength))
 sourceData <- sourceData[sourceData$barLength == 14, ]
+
+## retain the necessary columns only ##
 sourceData <- sourceData[, c("Country",
 			     "CATEGORY",
 			     "What.is.your.current.employment.status.",
@@ -54,25 +56,23 @@ names(sourceData) <- c("country", "category", "employment", "mainProductInterest
 		       "purchasingAuthority", "barcode")
 sourceData <- sourceData[, c("barcode", "country", "category", "employment", "mainProductInterest", "subProductInterest", 
 			     "companyActivity", "purchasingAuthority")]
+
+## exclude exhibitors and organizers ##
 sourceData <- sourceData[!(sourceData$category =="EXH]" | sourceData$category =="ORG]" | sourceData$category ==""), ]
 sourceData <- sourceData[, -c("category")]
-str(sourceData)
-sourceData <- melt(sourceData,  measure.vars = names(sourceData)[3:length(sourceData)], variable.name = "attribute", value.name = "value")
+
+sourceData <- melt(sourceData,  measure.vars = names(sourceData)[2:length(sourceData)], variable.name = "attribute", value.name = "value")
 sourceNames <- paste0("v", 1:17)
 sourceData[, c(sourceNames) := tstrsplit(value, "]", fixed = TRUE)]
-sourceData[, c(3,4) := NULL]
+sourceData[, c(3) := NULL]
 sourceData <- melt(sourceData, measure.vars = sourceNames, variable.name = "attribute", value.name = "code")
 sourceData <- sourceData[!is.na(code), ]
 sourceData <- sourceData[sourceData$code != " ", ]
 sourceData <- merge(sourceData, codeData, by = "code", all.x = TRUE)
 sourceData <- sourceData[!is.na(sourceData$decode), ]
 sourceData[, c(1,4) := NULL]
-sourceData <- dcast(sourceData, barcode + country ~ decode)
-sourceData[, c(3:44)] <- lapply(sourceData[, c(3:44)], function(x) ifelse(x > 0, 1, 0))
-
-# save the cleaned data
-saveRDS(sourceData, file = "./RData/sourceData.RData")
-
+sourceData <- dcast(sourceData, barcode ~ decode)
+sourceData[, c(2:44)] <- lapply(sourceData[, c(2:44)], function(x) ifelse(x > 0, 1, 0))
 
 
 ## 2. tidying the touch data ##
@@ -87,9 +87,6 @@ touchData <- touchData[touchData$barcode != "",]
 touchData$barcode <- as.character(touchData$barcode)
 str(touchData)
 any(is.na(touchData))
-# save the cleaned touch data
-saveRDS(touchData, file = "./RData/touchData.RData")
-
 
 ## 3. tidying the convo data ##
 str(convoData)
@@ -102,8 +99,6 @@ convoData <- convoData[convoData$barcode != "",]
 convoData$barcode <- as.character(convoData$barcode)
 str(convoData)
 any(is.na(convoData))
-# save the cleaned touch data
-saveRDS(convoData, file = "./RData/convoData.RData")
 
 ## 4. appending convo and touch data ##
 visitData <- rbind(touchData, convoData)
@@ -123,6 +118,26 @@ visitData <- visitData[order(userID),]
 saveRDS(visitData, file = "./RData/visitData.RData")
 
 
+## 5. create a user - item pair ##
+userItemData <- rbind(touchData, convoData)
+userItemData <- userItemData[, -2]
+
+saveRDS(userItemData, file = "./RData/userItemData.RData")
 
 
+## make sure that only the ids in userItem is existent in sourceData ##
+uniqueID <- unique(userItemData[, c("barcode")])
 
+sourceData <- merge(sourceData, uniqueID, by = "barcode")
+saveRDS(sourceData, file = "./RData/sourceData.RData")
+
+
+## create train data ##
+
+index <- sample(1:nrow(sourceData), round(0.8*nrow(sourceData)))
+sourceTest <- sourceData[-index, ]
+sourceTrain <- sourceData[index, ]
+
+
+saveRDS(sourceTest, file = "./RData/test.RData")
+saveRDS(sourceTrain, file = "./RData/train.RData")
