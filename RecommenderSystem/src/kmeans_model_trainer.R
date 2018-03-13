@@ -22,5 +22,5 @@ saveRDS(kmodel,"./output/kmodel.rds")
 predTrain <- predict(kmodel, sourceTrain[, -1])
 newSourceTrain <- cbind(sourceTrain, predTrain)   ## new source data - will be the reference for the similarity on predictions ##
 
-saveRDS(newSourceTrain, file = "./RData/newSource.RData")
+saveRDS(newSourceTrain, file = "./RData/newSourceTrain.RData")
 
