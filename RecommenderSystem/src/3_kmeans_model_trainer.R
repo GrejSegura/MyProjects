@@ -6,15 +6,14 @@
 
 
 rm(list = ls())
-library(tidyverse)
-library(data.table)
 library(flexclust)
 set.seed(32134)
 
 sourceTrain <- readRDS("./RData/train.RData")
 
+
 ## train the model ##
-kmodel <- kcca(sourceTrain[, -1], 100, kccaFamily("kmeans"))
+kmodel <- kcca(sourceTrain[, -1], 31, kccaFamily("jaccard"))
 
 saveRDS(kmodel,"./output/kmodel.rds")
 

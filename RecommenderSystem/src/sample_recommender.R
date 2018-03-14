@@ -23,7 +23,7 @@ hist(sumsUser$sum) ## check the distribution
 
 
 sampleData <- sampleData[, sum1 := sum(rating), by = userID] # create a column for sum of ratings
-sampleData1 <- sampleData[sum1 > 5, ] # retain only those who rated atleast 4 items
+sampleData1 <- sampleData[sum1 > 10, ] # retain only those who rated atleast 4 items
 sampleData1 <- sampleData1[, sum1 := NULL] # remove the "sum" variable
 
 sampleData <- sampleData[, sum2 := sum(rating), by = itemid] # create a column for sum of ratings

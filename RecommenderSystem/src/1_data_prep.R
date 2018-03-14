@@ -20,6 +20,7 @@ sourceData <- read.csv("./input/source.csv", sep = ",", stringsAsFactors = TRUE)
 touchData <- read.csv("./input/touch.csv", sep = ",", stringsAsFactors = TRUE)
 convoData <- read.csv("./input/convo.csv", sep = ",", stringsAsFactors = TRUE)
 codeData <- read.xlsx2("./input/code.xlsx", sheetIndex = 1)
+regionData <- read.csv("./input/region.csv", sep = ",", stringsAsFactors = TRUE)
 
 # convert to data.table
 sourceData <- setDT(sourceData)
@@ -58,9 +59,12 @@ sourceData <- sourceData[, c("barcode", "country", "category", "employment", "ma
 			     "companyActivity", "purchasingAuthority")]
 
 ## exclude exhibitors and organizers ##
-sourceData <- sourceData[!(sourceData$category =="EXH]" | sourceData$category =="ORG]" | sourceData$category ==""), ]
+sourceData <- sourceData[!(sourceData$category == "EXH]" | sourceData$category == "ORG]" | sourceData$category == ""), ]
 sourceData <- sourceData[, -c("category")]
 
+## identify the region by merging ##
+sourceData <- merge(sourceData, regionData, by = "country", all.x = TRUE)
+sourceData <- sourceData[, -c("country")]
 sourceData <- melt(sourceData,  measure.vars = names(sourceData)[2:length(sourceData)], variable.name = "attribute", value.name = "value")
 sourceNames <- paste0("v", 1:17)
 sourceData[, c(sourceNames) := tstrsplit(value, "]", fixed = TRUE)]
@@ -72,7 +76,7 @@ sourceData <- merge(sourceData, codeData, by = "code", all.x = TRUE)
 sourceData <- sourceData[!is.na(sourceData$decode), ]
 sourceData[, c(1,4) := NULL]
 sourceData <- dcast(sourceData, barcode ~ decode)
-sourceData[, c(2:44)] <- lapply(sourceData[, c(2:44)], function(x) ifelse(x > 0, 1, 0))
+sourceData[, c(2:75)] <- lapply(sourceData[, c(2:75)], function(x) ifelse(x > 0, 1, 0))
 
 
 ## 2. tidying the touch data ##
