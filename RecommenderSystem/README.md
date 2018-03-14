@@ -1,6 +1,6 @@
 # Recommender System Project
 
-This project aims to create a recommender system based on user demographics. The main algorithm used in finding the similarity of users is k-means clustering and k-nearest neighborhood.
+This project aims to create a recommender system based on user demographics.
 The algorithms provide a list of similar users. The items listed for this users were listed and weighted to create a new list of items to be recommended to the active user.
 
 ## Directory
