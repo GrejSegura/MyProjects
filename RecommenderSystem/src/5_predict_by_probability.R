@@ -29,7 +29,7 @@ test <- cbind(test, predTrain = predTest)  ## append the predicted cluster to th
 source <- newSourceTrain[newSourceTrain$predTrain == predTest, 1]
 userItemData <- merge(userItemData, source, by = "barcode")
 
-saveRDS(userItemData, "./userItemData.RData")
+saveRDS(userItemData, "./RData/userItemData.RData")
 
 
 ## Part 2 - summon the naiveBayes model ##
