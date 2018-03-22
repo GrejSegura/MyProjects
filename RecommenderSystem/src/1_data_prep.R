@@ -4,7 +4,7 @@
 ## THE DATA USED IS THE BIG5 2017 FAS - AND KONDUKO DATA
 ## WRITTEN BY: GREJELL SEGURA
 
-## LAST UPADTE: 2/19/2018
+## LAST UPDATE: 2/19/2018
 ## COMMENT: THE DATA FROM SOURCE IS EXTRACTED FROM INFOWEB, TOUCH AND CONVO COMES FROM KONDUKO
 
 rm(list = ls())
@@ -16,11 +16,11 @@ library(data.table)
 library(xlsx)
 
 # load data
-sourceData <- read.csv("./input/source.csv", sep = ",", stringsAsFactors = TRUE)
-touchData <- read.csv("./input/touch.csv", sep = ",", stringsAsFactors = TRUE)
-convoData <- read.csv("./input/convo.csv", sep = ",", stringsAsFactors = TRUE)
+sourceData <- read.csv("./input/source.csv", sep = ",")
+touchData <- read.csv("./input/touch.csv", sep = ",")
+convoData <- read.csv("./input/convo.csv", sep = ",")
 codeData <- read.xlsx2("./input/code.xlsx", sheetIndex = 1)
-regionData <- read.csv("./input/region.csv", sep = ",", stringsAsFactors = TRUE)
+regionData <- read.csv("./input/region.csv", sep = ",")
 
 # convert to data.table
 sourceData <- setDT(sourceData)
@@ -126,8 +126,16 @@ saveRDS(visitData, file = "./RData/visitData.RData")
 userItemData <- rbind(touchData, convoData)
 userItemData <- userItemData[, -2]
 
-saveRDS(userItemData, file = "./RData/userItemData.RData")
+companyDB <- userItemData
+companyDB$trueName <- companyDB$companyName
+companyDB <- companyDB[,-1]
+companyDB <- unique(companyDB)
+companyDB[,1] <- lapply(companyDB[,1], function(x)gsub("[^A-z]", "", x))
 
+userItemData[,2] <- lapply(userItemData[,2], function(x)gsub("[^A-z]", "", x))
+
+saveRDS(userItemData, file = "./RData/userItemData.RData")
+saveRDS(companyDB, file = "./RData/companyDB.RData")
 
 ## make sure that only the ids in userItem is existent in sourceData ##
 uniqueID <- unique(userItemData[, c("barcode")])
@@ -145,3 +153,5 @@ sourceTrain <- sourceData[index, ]
 
 saveRDS(sourceTest, file = "./RData/test.RData")
 saveRDS(sourceTrain, file = "./RData/train.RData")
+
+

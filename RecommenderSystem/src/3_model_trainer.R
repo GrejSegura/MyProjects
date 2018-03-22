@@ -13,7 +13,7 @@ sourceTrain <- readRDS("./RData/train.RData")
 
 
 ## train the model ##
-kmodel <- kcca(sourceTrain[, -1], 31, kccaFamily("jaccard"))
+kmodel <- kcca(sourceTrain[, -1], 15, kccaFamily("jaccard"))
 
 saveRDS(kmodel,"./output/kmodel.rds")
 

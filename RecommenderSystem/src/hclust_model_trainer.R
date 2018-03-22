@@ -18,7 +18,8 @@ hclustModel <- hclust(distance)
 plot(hclustModel)
 
 ## cut the cluster into specific number of group = k ##
-cluster <- cutree(hclustModel, k = 50)
+cluster <- cutree(hclustModel, k = 20)
 sourceTrain$group <- cluster ## cluster group added as new feature in the data ##
 table(cluster)
 plot(cluster)
+plot(hclustModel)

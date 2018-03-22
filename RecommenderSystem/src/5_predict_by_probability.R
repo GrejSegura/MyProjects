@@ -25,11 +25,11 @@ test <- activeUserDemog[sample, ]
 predTest <- predict(kmodel, test[, -1])
 test <- cbind(test, predTrain = predTest)  ## append the predicted cluster to the 
 
-## subset the data based on the predicted cluster ##
+'## subset the data based on the predicted cluster ##
 source <- newSourceTrain[newSourceTrain$predTrain == predTest, 1]
-userItemData <- merge(userItemData, source, by = "barcode")
+userItemData <- merge(userItemData, source, by = "barcode")'
 
-saveRDS(userItemData, "./RData/userItemData.RData")
+saveRDS(userItemData, "./RData/userItemData2.RData")
 
 
 ## Part 2 - summon the naiveBayes model ##
