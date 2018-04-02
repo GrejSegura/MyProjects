@@ -29,12 +29,10 @@ convoData <- setDT(convoData)
 
 
 ## 1. tidying the source data ##
-
-
 codeData <- codeData[, c(3,4)] # cleaning code data #
 names(codeData) <- c("code", "decode")
 
-sourceNames <- paste0("v", 1:200) # create variable names
+sourceNames <- paste0("v", 1:88) # create variable names
 sourceData[, c(sourceNames) := tstrsplit(Barcode.List, ",", fixed = TRUE)] # split the barcode.list variable
 sourceData <- melt(sourceData, measure.vars = sourceNames, variable.name = "barcodeList", value.name = "barcode")
 sourceData[, barcode := gsub(" ", "", barcode)]
@@ -66,7 +64,7 @@ sourceData <- sourceData[, -c("category")]
 sourceData <- merge(sourceData, regionData, by = "country", all.x = TRUE)
 sourceData <- sourceData[, -c("country")]
 sourceData <- melt(sourceData,  measure.vars = names(sourceData)[2:length(sourceData)], variable.name = "attribute", value.name = "value")
-sourceNames <- paste0("v", 1:17)
+sourceNames <- paste0("v", 1:25)
 sourceData[, c(sourceNames) := tstrsplit(value, "]", fixed = TRUE)]
 sourceData[, c(3) := NULL]
 sourceData <- melt(sourceData, measure.vars = sourceNames, variable.name = "attribute", value.name = "code")
@@ -78,16 +76,17 @@ sourceData[, c(1,4) := NULL]
 sourceData <- dcast(sourceData, barcode ~ decode)
 sourceData[, c(2:75)] <- lapply(sourceData[, c(2:75)], function(x) ifelse(x > 0, 1, 0))
 
-
 ## 2. tidying the touch data ##
-
 str(touchData)
+touchData <- touchData[touchData$companyName != "", ]
+touchData <- touchData[touchData$companyName != "dummy", ]
 touchData <- unique(touchData[, c("badgeMAC", "exhibitorId", "companyName")])
 names(touchData)[1] <- "barcode"
 touchData <- touchData[order(touchData$barcode),]
 touchData <- touchData[!is.na(touchData$exhibitorId),]
 touchData <- touchData[!is.na(touchData$barcode),]
 touchData <- touchData[touchData$barcode != "",]
+touchData <- touchData[touchData$companyName != "",]
 touchData$barcode <- as.character(touchData$barcode)
 str(touchData)
 any(is.na(touchData))
@@ -114,13 +113,7 @@ visitData <- melt(visitData, measure.vars = varNames, variable.name = "attribute
 
 names(visitData) <- c("userID", "itemid", "rating")
 visitData <- visitData[order(userID),]
-
-# create a matrix of barcode vs companyName
-# visitData <- dcast(visitData, barcode ~ companyName)
-# visitData <- as.matrix(visitData)
-
 saveRDS(visitData, file = "./RData/visitData.RData")
-
 
 ## 5. create a user - item pair ##
 userItemData <- rbind(touchData, convoData)
@@ -145,11 +138,9 @@ saveRDS(sourceData, file = "./RData/sourceData.RData")
 
 
 ## create train data ##
-
-index <- sample(1:nrow(sourceData), round(0.8*nrow(sourceData)))
+index <- sample(1:nrow(sourceData), round(0.7*nrow(sourceData)))
 sourceTest <- sourceData[-index, ]
 sourceTrain <- sourceData[index, ]
-
 
 saveRDS(sourceTest, file = "./RData/test.RData")
 saveRDS(sourceTrain, file = "./RData/train.RData")

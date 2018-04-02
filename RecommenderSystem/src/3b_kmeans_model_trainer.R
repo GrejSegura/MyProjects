@@ -7,13 +7,14 @@
 
 rm(list = ls())
 library(flexclust)
-set.seed(32134)
+library(data.table)
+set.seed(12345)
 
 sourceTrain <- readRDS("./RData/train.RData")
 
 
 ## train the model ##
-kmodel <- kcca(sourceTrain[, -1], 15, kccaFamily("jaccard"))
+kmodel <- kcca(sourceTrain[, -1], 8, kccaFamily("jaccard"))
 
 saveRDS(kmodel,"./output/kmodel.rds")
 
