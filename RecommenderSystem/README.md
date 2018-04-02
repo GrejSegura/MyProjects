@@ -11,4 +11,4 @@ RData - any R data that was processed and saved
 src - all the R scripts  
 reference - the documents used as reference for this project  
 
-Note: The data was hidden for confidentiality reasons.
+Note: The data was hidden to preserve confidentiality.
