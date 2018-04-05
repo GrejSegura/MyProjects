@@ -35,4 +35,4 @@ data <- as.data.frame(cbind(x, y))
 elbow <- ggplot(data, aes(x = x, y = y)) + geom_line() + geom_point(size = 5) + 
 	labs(title = "K-means Clustering Elbow Method", x = "No. of Clusters", y = "Total within-clusters sum of squares") + geom_abline(mapping = aes(x = 7), slope = 0, intercept = 7)
 elbow
-## chose 9 clusters
+## chose 7 clusters
