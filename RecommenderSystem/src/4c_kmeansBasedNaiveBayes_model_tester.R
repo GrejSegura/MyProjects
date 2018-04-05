@@ -70,6 +70,7 @@ not <- which(!(varNames2 %in% varNames))
 barcodes <- userItemTest[, c("barcode")]
 userItemTest <- userItemTest[, -1]
 
+
 pred <- predict(naiveModel, userItemTest, type = "raw")
 pred <- as.data.frame(pred)
 pred <- setDT(pred)

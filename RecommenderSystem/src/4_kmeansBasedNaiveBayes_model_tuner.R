@@ -48,10 +48,14 @@ varNames <- names(userItemData[, -c("company", "predTrain")])
 
 
 ## tune ##
-control <- trainControl(method = "cv", number = 5)
-tuneModel <- train(company ~., data = userItemData, method = "nb" , trControl = control)
+library(klaR)
+x <- userItemData[, -c("company")]
+y <- userItemData$company
+control <- trainControl(method = "cv", number = 5, classProbs = TRUE)
+tuneModel <- train(x, y, method = "nb" , trControl = control, laplace = 1)
 
-'naiveModel <- train(company ~., data = userItemData)
+'
+naiveModel <- train(company ~., data = userItemData)
 saveRDS(naiveModel,"./output/naiveModel.rds")
 '
 

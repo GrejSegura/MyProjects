@@ -15,15 +15,24 @@ sourceTrain <- readRDS("./RData/train.RData")
 
 
 ## use elbow method to find the optimum number of clusters ##
-k.max <- 80
+k.max <- 20
 data <- sourceTrain[, -1]
 wss <- sapply(2:k.max, 
 	      function(k){kmeans(data, k, nstart = 50,iter.max = 15 )$tot.withinss})
 wss
+saveRDS(wss,"./output/kmeans_wss.rds")
 
-plot(2:80, wss[2:80],
-     type = "b", pch = 19, frame = FALSE, 
+wss <- readRDS("./output/kmeans_wss.rds")
+plot(2:10, wss[2:10],
+     type = "b", pch = 19, frame = TRUE, 
      xlab = "Number of clusters K",
      ylab = "Total within-clusters sum of squares")
+abline(v = 7, untf = FALSE, col = "red")
 
-## chose 10 clusters
+y <- wss[2:10]
+x <- c(2:10)
+data <- as.data.frame(cbind(x, y))
+elbow <- ggplot(data, aes(x = x, y = y)) + geom_line() + geom_point(size = 5) + 
+	labs(title = "K-means Clustering Elbow Method", x = "No. of Clusters", y = "Total within-clusters sum of squares") + geom_abline(mapping = aes(x = 7), slope = 0, intercept = 7)
+elbow
+## chose 9 clusters
