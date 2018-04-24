@@ -1,0 +1,273 @@
+---
+title: "Shot Analysis & Field Goal prediction - XGBoost"
+author: "Grejell Segura"
+output:
+  html_document:
+    number_sections: false
+    toc: true
+    fig_width: 12
+    fig_height: 8
+    theme: cosmo
+    highlight: tango
+    code_folding: hide
+---
+
+#Overview
+
+This analysis aims to explore the shots log and eventually create a field goal prediction model that would be useful to teams and coaches.
+
+To start with, let us load the necessary libraries and the dataset.
+
+```{r, message = F, warning = F}
+library(xgboost)
+library(plyr)
+library(dplyr)
+library(caret)
+library(ggplot2)
+library(DT)
+library(GGally)
+
+nba_shots <- read.csv("../input/shot_logs.csv")
+
+dim(nba_shots)
+str(nba_shots)
+```
+
+# Specific Data Analysis
+
+Before proceeding to building a model, I would like to examine the data by examining specific informations.
+I would like to know a couple of things first to have an idea about the field goals made by these nba players.
+
+1. Compare the shots by Home and Away teams.
+2. Who are the best non-post shooters for the first quarter, last quarter and the overtime? This gives us an idea who are the best to start and end the game.
+    - In this analysis, non-post shot is defined as a shot 5 feet away from the basket.
+
+
+## 1. Shot Comparison for Home and Away Teams
+
+```{r, warning = F, message = F}
+
+home_away <- nba_shots %>% group_by(LOCATION) %>% summarize(PERCENTAGE = (sum(FGM)/length(FGM))*100)
+ggplot(data = home_away, aes(x = LOCATION, y = PERCENTAGE, fill = LOCATION)) + geom_bar(stat = 'identity') + theme_bw()
+
+```
+
+
+
+
+The home team has a slight edge in the field goal percentage. This is expected as home teams usually wins more games as shown below.
+
+```{r, warning = F, message = F}
+wins <- nba_shots %>% group_by(GAME_ID, LOCATION) %>% filter(W == 'W', FGM == 1)
+ggplot(data = wins, aes(LOCATION, fill = factor(W)) ) + geom_bar() + theme_bw()
+
+```
+
+
+Home teams are obviously winning more games than the away team based on the chart above.
+
+## 2. Best Starter and Finisher - non-post players (shots 5ft+ away from the basket)
+
+We wish to identify which players are performing better during certain situations.
+
+###First Quarter Top Shooters
+```{r, warning = F, message = F}
+first_q <- nba_shots %>% filter(PERIOD == 1, SHOT_DIST > 5) %>% group_by(player_name) %>% 
+            summarise(made = sum(FGM), 
+            total_attempts = length(FGM), 
+            ave_touch = round(mean(TOUCH_TIME),2),
+            ave_distance = round(mean(SHOT_DIST),2)) %>%
+            mutate(percentage = round(made/total_attempts,2)) %>%
+            arrange(desc(percentage)) %>% filter(total_attempts > 150)
+best_1st <- data.frame(first_q)
+datatable(best_1st[1:20,])
+
+```
+Unsurprisingly here, Nowitzki is ranked number 1 among perimeter shooters with 51.7%. 
+What is surprising is Vucevic is ranked number 2 even if he usually works in the paint as a center.
+However, he has the least average shot distance among all rankers.
+
+###Fourth Quarter Top Shooters
+```{r, warning = F, message = F}
+
+fourth_q <- nba_shots %>% filter(PERIOD == 4, SHOT_DIST > 5) %>% group_by(player_name) %>% 
+            summarise(made = sum(FGM), 
+            total_attempts = length(FGM), 
+            ave_touch = round(mean(TOUCH_TIME),2),
+            ave_distance = round(mean(SHOT_DIST),2)) %>%
+            mutate(percentage = round(made/total_attempts,2)) %>%
+            arrange(desc(percentage)) %>% 
+            filter(total_attempts > 150)
+best_4th <- data.frame(fourth_q)
+datatable(best_4th[1:20,])
+```
+As for the fourth quarter, what is noticeable is a drop in the percentages of the players. 
+Wesley Matthews is ranked first with 45.5% aaccuracy. Top players of the league are also ranked higher.
+
+### Overtime Top Shooters
+
+Let us also look at the best shooters in overtime. This time the minimum shot is atleast 10 shots since most of the players and teams have not enough data for games with overtime.
+```{r, warning = F, message = F}
+overtime <- nba_shots %>% filter(PERIOD > 4, SHOT_DIST > 5) %>% group_by(player_name) %>% 
+            summarise(made = sum(FGM), 
+            total_attempts = length(FGM), 
+            ave_touch = round(mean(TOUCH_TIME),2),
+            ave_distance = round(mean(SHOT_DIST),2)) %>%
+            mutate(percentage = round(made/total_attempts,2)) %>%
+            arrange(desc(percentage)) %>% 
+            filter(total_attempts > 10)
+best_overtime <- data.frame(overtime)
+datatable(best_overtime[1:20,])
+```
+Not surprising, Marc Gasol is the top player.
+
+## 3. Top End Game Players
+
+Let us also take a look at the top players in the clutch. Clutch time start from the last 5 minutes of the 4th quarter until the game ends. We will include all types of shots this time disregarding the distance. However, shot attempts are set to atleast 100.
+```{r, warning = F, message = F}
+end_game <- nba_shots
+end_game$SHOT_CLOCK[is.na(end_game$SHOT_CLOCK)] <- 0
+GAME_CLOCK <- strptime(end_game$GAME_CLOCK, format = '%M:%S')
+clock <- GAME_CLOCK$min * 60 + GAME_CLOCK$sec
+end_game$GAME_CLOCK <- clock
+end <- end_game %>% filter(PERIOD >= 4, GAME_CLOCK <= 300) %>% group_by(player_name) %>% 
+            summarise(made = sum(FGM), 
+            total_attempts = length(FGM), 
+            ave_touch = round(mean(TOUCH_TIME),2),
+            ave_distance = round(mean(SHOT_DIST),2)) %>%
+            mutate(percentage = round(made/total_attempts,2)) %>%
+            arrange(desc(percentage)) %>% 
+            filter(total_attempts > 100)
+best_end <- data.frame(end)
+datatable(best_end[1:20,])
+```
+Marc Gasol again has the highest field goal percentage among all players. One thing is noticeable, the list is dominated mostly of 1 or 2 guards.
+
+# Exploratory Data Analysis
+
+Let us compare the made and missed shot while also looking at the relationship of the features.
+```{r, warning = F, message = F}
+shots_data <- nba_shots[, -c(1,2,3,4,5,8,16,18,19,21)]
+shots_data$clock <- clock
+shots_data$PERIOD <- as.factor(shots_data$PERIOD)
+shots_data$PTS_TYPE <- as.factor(shots_data$PTS_TYPE)
+sample <- sample(1:nrow(shots_data), 2000)
+ggpairs(shots_data[sample, -c(9,11)], aes(color = SHOT_RESULT, alpha = 0.75)) + theme_minimal()
+```
+
+# Data Preparation
+
+## Imputation of NAs
+
+First, as a standard procedure, we have to determine the features with NAs. The table below shows the list of features that has NAs in it.
+
+```{r, warning = F, message = F}
+colSums(is.na(nba_shots))
+```
+As we can see, only the shot clock has an NA. Thus the next step would be to replace the NAs for this feature.
+Logically, we can not replace the shot clock by its mean. The most logical assumption of having an NA to the shot clock is that it could be the last possession of the quarter or the game.
+Hence we replace the NAs with 0.
+
+```{r, warning = F, message = F}
+nba_shots$SHOT_CLOCK[is.na(nba_shots$SHOT_CLOCK)] <- 0
+```
+
+Next is we examine the structure of the data to see its different types.
+
+```{r, warning = F, message = F}
+str(nba_shots)
+```
+
+Seeing the result, we can notice that the Game clock is of type factor which should not be the case.
+The numbers should be converted to seconds as it is more useful in that form. So we next convert the said feature to seconds with type integer.
+Another thing is that the data has features that are redundant and we can immediately determine that even if you are just an average fan of basketball.
+One example is the shot result which is basically just a duplicate information of the field goals made or missed.
+In addition, there are also features that to me does not provide any information to the model I am trying to build.
+These are the game id,  match up (this is debatable), W (win), player id (both defender and shooter) and final margin.
+Hence we will remove these feature in the next step. Period, pts_type and FGM were also converted to type factors. 
+
+```{r, warning = F, message = F}
+GAME_CLOCK <- strptime(nba_shots$GAME_CLOCK, format = '%M:%S')
+clock <- GAME_CLOCK$min * 60 + GAME_CLOCK$sec
+nba_data <- nba_shots[,-c(1,2,4,5,8,14,15,16,19,21)]
+names <- c('PERIOD', 'PTS_TYPE', 'FGM')
+for (name in names){
+  nba_data[, name] <- as.factor(nba_data[,name])
+}
+```
+
+## One Hot-Coding and Data Splitting
+
+In order to create an xgboost model, the data should be one hot coded. Then divide the data into training and testing sets while also segregating the labels.
+
+```{r, warning = F, message = F}
+dummy <- dummyVars(~.-1, nba_data)
+dummy_nba <- predict(dummy, nba_data)
+
+# join the clock(GAME_CLOCK) to dummy_nba
+dummy2 <- cbind(dummy_nba, clock)
+dummy2 <- dummy2[,-19]
+ind <- 1:nrow(dummy2)
+index <- sample(ind, round(nrow(dummy2)*.75))
+train_d <- dummy2[index, -18]
+test_d <- dummy2[-index,-18]
+
+# create a train and label data
+train_l <- dummy2[index, 18]
+test_l <- dummy2[-index, 18]
+```
+
+# XGBoost Model
+
+The data is now ready for model training. The following setup needs further optimization as the parameter values are just handpicked.
+The booster I used is the gbtree while the objective is softmax.
+```{r, warning = F, message = F}
+xgb_nba <- xgboost(as.matrix(train_d), train_l, 
+                        booster = 'gbtree',
+                        objective = 'multi:softmax',
+                        num_class = 2,
+                        max.depth = 5,
+                        eta = 0.1,
+                        nthread = 4,
+                        nrounds = 300,
+                        min_child_weight = 1,
+                        subsample = 0.5, 
+                        colsample_bytree = 0.8, 
+                        num_parallel_tree = 1,
+                        missing = 'NAN',
+                        verbose = 0)
+```
+
+# Evaluation
+The training error is approximately 36% which is quite high but still viable for its purpose.
+After training the model, we have to check its prediction strength by running it into the test dataset.
+A confusion table below is made to determine the accuracy of the prediction in the test data.
+```{r, warning = F, message = F}
+pred_xgb_nba1 <- predict(xgb_nba, as.matrix(test_d), missing = 'NAN')
+pred_xgb_nba1 <- ifelse(pred_xgb_nba1 > 0.5, 1, 0)
+confusion1 <- table(as.factor(pred_xgb_nba1), as.factor(test_l))
+confusion1
+```
+
+The table shows there are quite a number of misclassified data. To see the exact percentage of the model accuracy, the below codes are implemented.
+
+```{r, warning = F, message = F}
+library (caret)
+precision <- posPredValue(as.factor(pred_xgb_nba1), as.factor(test_l), positive="1")
+precision
+recall <- sensitivity(as.factor(pred_xgb_nba1), as.factor(test_l), positive="1")
+recall
+wrong1 <- ifelse(abs(test_l - pred_xgb_nba1) > 0, 1, 0)
+accuracy <- 1 - sum(wrong1) / length(as.factor(test_l))
+accuracy
+```
+
+The accuracy is indeed relatively low at 62%. Precision is lower at 61% but recall is higher at 83%. However, this model is still subject to optimization.
+
+
+# Conclusion
+
+The model we came up with this analysis only gives us a 62% accuracy rate, 61% precision and 83% recall. 
+This is just an average classifier which is not strong enough for teams to use. 
+The model however is far from its optimal form as the parameters are just subjectively chosen.
+The best model are yet to be determined. One such move to optimize this is to apply the train function in caret package to find the best parameter grid.
