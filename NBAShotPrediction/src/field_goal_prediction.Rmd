@@ -5,18 +5,22 @@ output:
   html_document:
     number_sections: false
     toc: true
-    fig_width: 12
-    fig_height: 8
     theme: cosmo
     highlight: tango
     code_folding: hide
+    fig_width: 12
+    fig_height: 8
 ---
 
 #Overview
 
 This analysis aims to explore the shots log and eventually create a field goal prediction model that would be useful to teams and coaches.
 
-To start with, let us load the necessary libraries and the dataset.
+A couple of things that I did in this report:
+1. Compare the shots of Home and Away teams.
+2. Who are the best non-post shooters for the first quarter, last quarter and the overtime? This gives us an idea who are the best to start and end the game.
+    - In this analysis, non-post shot is defined as a shot 5 feet away from the basket.
+3. Build a prediction model using xgboost.
 
 ```{r, message = F, warning = F}
 library(xgboost)
@@ -28,49 +32,35 @@ library(DT)
 library(GGally)
 
 nba_shots <- read.csv("../input/shot_logs.csv")
-
-dim(nba_shots)
-str(nba_shots)
 ```
 
-# Specific Data Analysis
 
-Before proceeding to building a model, I would like to examine the data by examining specific informations.
-I would like to know a couple of things first to have an idea about the field goals made by these nba players.
+# Shot Comparison for Home and Away Teams
 
-1. Compare the shots by Home and Away teams.
-2. Who are the best non-post shooters for the first quarter, last quarter and the overtime? This gives us an idea who are the best to start and end the game.
-    - In this analysis, non-post shot is defined as a shot 5 feet away from the basket.
-
-
-## 1. Shot Comparison for Home and Away Teams
-
-```{r, warning = F, message = F}
+```{r, warning = F, message = F, fig_width = 5, fig_height = 3}
 
 home_away <- nba_shots %>% group_by(LOCATION) %>% summarize(PERCENTAGE = (sum(FGM)/length(FGM))*100)
-ggplot(data = home_away, aes(x = LOCATION, y = PERCENTAGE, fill = LOCATION)) + geom_bar(stat = 'identity') + theme_bw()
+ggplot(data = home_away, aes(x = LOCATION, y = PERCENTAGE, fill = LOCATION)) + geom_bar(stat = 'identity') + theme_minimal()
 
 ```
-
-
 
 
 The home team has a slight edge in the field goal percentage. This is expected as home teams usually wins more games as shown below.
 
-```{r, warning = F, message = F}
+```{r, warning = F, message = F, fig_width = 5, fig_height = 3}
 wins <- nba_shots %>% group_by(GAME_ID, LOCATION) %>% filter(W == 'W', FGM == 1)
-ggplot(data = wins, aes(LOCATION, fill = factor(W)) ) + geom_bar() + theme_bw()
+ggplot(data = wins, aes(LOCATION, fill = factor(W)) ) + geom_bar() + theme_minimal()
 
 ```
 
 
 Home teams are obviously winning more games than the away team based on the chart above.
 
-## 2. Best Starter and Finisher - non-post players (shots 5ft+ away from the basket)
+# Best Starter and Finisher - non-post players (shots 5ft+ away from the basket)
 
 We wish to identify which players are performing better during certain situations.
 
-###First Quarter Top Shooters
+## First Quarter Top Shooters
 ```{r, warning = F, message = F}
 first_q <- nba_shots %>% filter(PERIOD == 1, SHOT_DIST > 5) %>% group_by(player_name) %>% 
             summarise(made = sum(FGM), 
@@ -87,7 +77,7 @@ Unsurprisingly here, Nowitzki is ranked number 1 among perimeter shooters with 5
 What is surprising is Vucevic is ranked number 2 even if he usually works in the paint as a center.
 However, he has the least average shot distance among all rankers.
 
-###Fourth Quarter Top Shooters
+## Fourth Quarter Top Shooters
 ```{r, warning = F, message = F}
 
 fourth_q <- nba_shots %>% filter(PERIOD == 4, SHOT_DIST > 5) %>% group_by(player_name) %>% 
@@ -104,7 +94,7 @@ datatable(best_4th[1:20,])
 As for the fourth quarter, what is noticeable is a drop in the percentages of the players. 
 Wesley Matthews is ranked first with 45.5% aaccuracy. Top players of the league are also ranked higher.
 
-### Overtime Top Shooters
+## Overtime Top Shooters
 
 Let us also look at the best shooters in overtime. This time the minimum shot is atleast 10 shots since most of the players and teams have not enough data for games with overtime.
 ```{r, warning = F, message = F}
@@ -121,7 +111,7 @@ datatable(best_overtime[1:20,])
 ```
 Not surprising, Marc Gasol is the top player.
 
-## 3. Top End Game Players
+# Top End Game Players
 
 Let us also take a look at the top players in the clutch. Clutch time start from the last 5 minutes of the 4th quarter until the game ends. We will include all types of shots this time disregarding the distance. However, shot attempts are set to atleast 100.
 ```{r, warning = F, message = F}
