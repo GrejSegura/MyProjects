@@ -14,13 +14,13 @@ output:
 
 #Overview
 
-This analysis aims to explore the shots log and eventually create a field goal prediction model that would be useful to teams and coaches.
-
-A couple of things that I did in this report:
-1. Compare the shots of Home and Away teams.
-2. Who are the best non-post shooters for the first quarter, last quarter and the overtime? This gives us an idea who are the best to start and end the game.
-    - In this analysis, non-post shot is defined as a shot 5 feet away from the basket.
-3. Build a prediction model using xgboost.
+This analysis aims to explore the shots log and eventually create a field goal prediction model that would be useful to teams and coaches.  
+  
+A couple of things that I did in this report:  
+1. Compare the shots of Home and Away teams.  
+2. Who are the best non-post shooters for the first quarter, last quarter and the overtime? This gives us an idea on who are the best to start and end the game.  
+    - In this analysis, non-post shot is defined as a shot 5 feet away from the basket.  
+3. Build a prediction model using xgboost.  
 
 ```{r, message = F, warning = F}
 library(xgboost)
@@ -37,24 +37,24 @@ nba_shots <- read.csv("../input/shot_logs.csv")
 
 # Shot Comparison for Home and Away Teams
 
-```{r, warning = F, message = F, fig_width = 5, fig_height = 3}
+```{r, warning = F, message = F, out.width="70%"}
 
 home_away <- nba_shots %>% group_by(LOCATION) %>% summarize(PERCENTAGE = (sum(FGM)/length(FGM))*100)
-ggplot(data = home_away, aes(x = LOCATION, y = PERCENTAGE, fill = LOCATION)) + geom_bar(stat = 'identity') + theme_minimal()
+ggplot(data = home_away, aes(x = LOCATION, y = PERCENTAGE, fill = LOCATION, width = 0.65)) + geom_bar(stat = 'identity') + theme_bw()
 
 ```
 
 
 The home team has a slight edge in the field goal percentage. This is expected as home teams usually wins more games as shown below.
 
-```{r, warning = F, message = F, fig_width = 5, fig_height = 3}
+```{r, warning = F, message = F, out.width="70%"}
 wins <- nba_shots %>% group_by(GAME_ID, LOCATION) %>% filter(W == 'W', FGM == 1)
-ggplot(data = wins, aes(LOCATION, fill = factor(W)) ) + geom_bar() + theme_minimal()
+ggplot(data = wins, aes(LOCATION, fill = LOCATION) ) + geom_bar(width = 0.65) + theme_bw()
 
 ```
 
 
-Home teams are obviously winning more games than the away team based on the chart above.
+Home teams are obviously making more shots than the away team based on the chart above.
 
 # Best Starter and Finisher - non-post players (shots 5ft+ away from the basket)
 
@@ -64,9 +64,12 @@ We wish to identify which players are performing better during certain situation
 ```{r, warning = F, message = F}
 first_q <- nba_shots %>% filter(PERIOD == 1, SHOT_DIST > 5) %>% group_by(player_name) %>% 
             summarise(made = sum(FGM), 
-            total_attempts = length(FGM), 
-            ave_touch = round(mean(TOUCH_TIME),2),
-            ave_distance = round(mean(SHOT_DIST),2)) %>%
+            total_attempts = length(FGM),
+            ave_defense_dist = round(mean(CLOSE_DEF_DIST, na.rm = T),2),
+            ave_touch = round(mean(TOUCH_TIME, na.rm = T),2),
+            ave_dribble = round(mean(DRIBBLES, na.rm = T),2),
+            ave_shot_clock = round(mean(SHOT_CLOCK, na.rm = T),2),
+            ave_distance = round(mean(SHOT_DIST, na.rm = T),2)) %>%
             mutate(percentage = round(made/total_attempts,2)) %>%
             arrange(desc(percentage)) %>% filter(total_attempts > 150)
 best_1st <- data.frame(first_q)
@@ -82,9 +85,12 @@ However, he has the least average shot distance among all rankers.
 
 fourth_q <- nba_shots %>% filter(PERIOD == 4, SHOT_DIST > 5) %>% group_by(player_name) %>% 
             summarise(made = sum(FGM), 
-            total_attempts = length(FGM), 
-            ave_touch = round(mean(TOUCH_TIME),2),
-            ave_distance = round(mean(SHOT_DIST),2)) %>%
+            total_attempts = length(FGM),
+            ave_defense_dist = round(mean(CLOSE_DEF_DIST, na.rm = T),2),
+            ave_touch = round(mean(TOUCH_TIME, na.rm = T),2),
+            ave_dribble = round(mean(DRIBBLES, na.rm = T),2),
+            ave_shot_clock = round(mean(SHOT_CLOCK, na.rm = T),2),
+            ave_distance = round(mean(SHOT_DIST, na.rm = T),2)) %>%
             mutate(percentage = round(made/total_attempts,2)) %>%
             arrange(desc(percentage)) %>% 
             filter(total_attempts > 150)
@@ -101,29 +107,35 @@ Let us also look at the best shooters in overtime. This time the minimum shot is
 overtime <- nba_shots %>% filter(PERIOD > 4, SHOT_DIST > 5) %>% group_by(player_name) %>% 
             summarise(made = sum(FGM), 
             total_attempts = length(FGM), 
-            ave_touch = round(mean(TOUCH_TIME),2),
-            ave_distance = round(mean(SHOT_DIST),2)) %>%
+            ave_defense_dist = round(mean(CLOSE_DEF_DIST, na.rm = T),2),
+            ave_touch = round(mean(TOUCH_TIME, na.rm = T),2),
+            ave_dribble = round(mean(DRIBBLES),2),
+            ave_shot_clock = round(mean(SHOT_CLOCK, na.rm = T),2),
+            ave_distance = round(mean(SHOT_DIST, na.rm = T),2)) %>%
             mutate(percentage = round(made/total_attempts,2)) %>%
             arrange(desc(percentage)) %>% 
             filter(total_attempts > 10)
 best_overtime <- data.frame(overtime)
 datatable(best_overtime[1:20,])
 ```
-Not surprising, Marc Gasol is the top player.
 
 # Top End Game Players
 
 Let us also take a look at the top players in the clutch. Clutch time start from the last 5 minutes of the 4th quarter until the game ends. We will include all types of shots this time disregarding the distance. However, shot attempts are set to atleast 100.
 ```{r, warning = F, message = F}
 end_game <- nba_shots
-end_game$SHOT_CLOCK[is.na(end_game$SHOT_CLOCK)] <- 0
+isna <- which(is.na(nba_shots$SHOT_CLOCK))
 GAME_CLOCK <- strptime(end_game$GAME_CLOCK, format = '%M:%S')
 clock <- GAME_CLOCK$min * 60 + GAME_CLOCK$sec
 end_game$GAME_CLOCK <- clock
+end_game$SHOT_CLOCK[is.na(end_game$SHOT_CLOCK)] <- end_game$GAME_CLOCK[isna]
 end <- end_game %>% filter(PERIOD >= 4, GAME_CLOCK <= 300) %>% group_by(player_name) %>% 
             summarise(made = sum(FGM), 
             total_attempts = length(FGM), 
+            ave_defense_dist = round(mean(CLOSE_DEF_DIST),2),
             ave_touch = round(mean(TOUCH_TIME),2),
+            ave_dribble = round(mean(DRIBBLES),2),
+            ave_shot_clock = round(mean(SHOT_CLOCK),2),
             ave_distance = round(mean(SHOT_DIST),2)) %>%
             mutate(percentage = round(made/total_attempts,2)) %>%
             arrange(desc(percentage)) %>% 
@@ -142,7 +154,7 @@ shots_data$clock <- clock
 shots_data$PERIOD <- as.factor(shots_data$PERIOD)
 shots_data$PTS_TYPE <- as.factor(shots_data$PTS_TYPE)
 sample <- sample(1:nrow(shots_data), 2000)
-ggpairs(shots_data[sample, -c(9,11)], aes(color = SHOT_RESULT, alpha = 0.75)) + theme_minimal()
+ggpairs(shots_data[sample, -c(9,11)], aes(color = SHOT_RESULT, alpha = 0.75), upper = list(continuous = wrap("cor", size = 3))) + theme_minimal()
 ```
 
 # Data Preparation
@@ -156,12 +168,8 @@ colSums(is.na(nba_shots))
 ```
 As we can see, only the shot clock has an NA. Thus the next step would be to replace the NAs for this feature.
 Logically, we can not replace the shot clock by its mean. The most logical assumption of having an NA to the shot clock is that it could be the last possession of the quarter or the game.
-Hence we replace the NAs with 0.
-
-```{r, warning = F, message = F}
-nba_shots$SHOT_CLOCK[is.na(nba_shots$SHOT_CLOCK)] <- 0
-```
-
+Hence we replace the NAs with the game clock if the game clock is lesser than 24. However, some NAs show that game clock is greater than 24 which means the possession is not the last one for the quarter.
+There is no logical explanation as to why there are NAs in this case. To solve this we will use the mean of shot clock to impute on the missing data.
 Next is we examine the structure of the data to see its different types.
 
 ```{r, warning = F, message = F}
@@ -177,9 +185,13 @@ These are the game id,  match up (this is debatable), W (win), player id (both d
 Hence we will remove these feature in the next step. Period, pts_type and FGM were also converted to type factors. 
 
 ```{r, warning = F, message = F}
+isna <- which(is.na(nba_shots$SHOT_CLOCK))
 GAME_CLOCK <- strptime(nba_shots$GAME_CLOCK, format = '%M:%S')
 clock <- GAME_CLOCK$min * 60 + GAME_CLOCK$sec
 nba_data <- nba_shots[,-c(1,2,4,5,8,14,15,16,19,21)]
+isna_clock <- clock[isna]
+isna_clock[isna_clock > 24] <- mean(nba_data$SHOT_CLOCK, na.rm = TRUE)
+nba_data$SHOT_CLOCK[isna] <- isna_clock
 names <- c('PERIOD', 'PTS_TYPE', 'FGM')
 for (name in names){
   nba_data[, name] <- as.factor(nba_data[,name])
