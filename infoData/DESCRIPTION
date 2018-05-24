@@ -1,0 +1,14 @@
+Package: infoData
+Title: Prepares the Data for Visualization
+Version: 0.1.0
+Authors@R: person("Grejell", "Segura", ,"mr_grej@yahoo.com", c("aut", "cre"))
+Description: The functions included in this package will streamline the data preparation process for infoData's dashboard visualization.
+License: GPL-2
+LazyData: true
+Imports:
+	data.table,
+	dplyr,
+	tidyverse,
+	lubridate,
+	xlsx,
+	XLConnect
