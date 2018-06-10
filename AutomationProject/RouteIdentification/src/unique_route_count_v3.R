@@ -25,7 +25,7 @@ library(magrittr)
 library(DT)
 set.seed(123)
 
-data_1 <- read.csv("C:/Users/Grejell/Documents/Data Analysis/Automation Project/Route_Counting/dta/gate_scans.csv")
+data_1 <- read.csv("./dta/inputData.csv")
 
 
 data_1 <- data_1[data_1$Len == 10,] ## remove Length of card.number != 10
@@ -95,4 +95,4 @@ names(b)[1] <- "Flow"
 datatable(b[order(-b$Freq), ])
 
 ## SAVE OUTPUT DATA TO EXCEL ##
-write.csv(data, "C:/Users/Grejell/Documents/Data Analysis/Automation Project/Route_Counting/dta/routing_final.csv", row.names = FALSE)
+write.csv(data, "./dta/finalData.csv", row.names = FALSE)

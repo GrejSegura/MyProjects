@@ -21,7 +21,7 @@ library(data.table)
 
 
 ## LOAD THE DBMS DATA
-dbData_1 <- read.csv("C:/Users/Grejell/Documents/Data Analysis/Automation Project/InGo_Automation/dta/dbms.csv", sep = ",")
+dbData_1 <- read.csv("./dta/inputData.csv", sep = ",")
 dbData_1 <- setDT(dbData_1)
 
 dbmsnames <- grep("Attended", names(dbData_1), value = TRUE)
@@ -38,7 +38,7 @@ dbData_2[grepll == FALSE, attended := "No"]
 dbData_2 <- dbData_2[, c("name", "surname", "company", "position", "email", "id", "attended")]
 
 ## LOAD AND PROCESS ACQUISITIONS DATA
-igData_1a <- fread("C:/Users/Grejell/Documents/Data Analysis/Automation Project/InGo_Automation/dta/acquisitions.csv", sep = ",")
+igData_1a <- fread("./dta/input_1Data.csv", sep = ",")
 igData_1b <- igData_1a[, c("name", "surname", "company", "position", "email")]  ## RETAIN ONLY c("name", "surname", "company", "position", "email")
 igData_1b[] <- lapply(igData_1b, as.character)
 igData_1b[] <- lapply(igData_1b, function(x) gsub("[^A-z0-9]", "", x))
@@ -48,7 +48,7 @@ igData_1b$source <- "acquisition"
 
 
 ## LOAD AND PROCESS ALLOCATIONS DATA
-igData_2a <- fread("C:/Users/Grejell/Documents/Data Analysis/Automation Project/InGo_Automation/dta/advocates.csv", sep = ",")
+igData_2a <- fread("./dta/input_2Data.csv", sep = ",")
 igData_2b <- igData_2a[, c("name", "surname", "company", "position", "email")]  ## RETAIN ONLY c("name", "surname", "company", "position", "email")
 igData_2b[] <- lapply(igData_2b, as.character)
 igData_2b[] <- lapply(igData_2b, function(x) gsub("[^A-z0-9]", "", x))
@@ -323,5 +323,5 @@ db <- db[, c("id", "attended")]
 
 igDataFinal <- merge(igData, db, by = "id", all.x = TRUE)
 
-write.csv(igDataFinal ,"C:/Users/Grejell/Documents/Data Analysis/Automation Project/InGo_Automation/dta/ingo_matching_final.csv", row.names = FALSE)
+write.csv(igDataFinal ,"./dta/matchedData.csv", row.names = FALSE)
 rm(list = ls())
