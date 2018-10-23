@@ -1,6 +1,6 @@
 
 
-## PURPOSE : THIS IS TO IDENTIFY THE PEOPLE WHO WERE EXHIBITORS THIS YEAR THAT WERE VISITORS LAST YEAR (GULFOOD)
+## PURPOSE : THIS IS TO IDENTIFY THE PEOPLE WHO WERE EXHIBITORS THIS YEAR THAT WERE VISITORS LAST YEAR
 ## CREATION DATE : 3/3/2018
 ## LAST UPDATE : 
 ## VERSION : 1
@@ -24,7 +24,7 @@ library(combinat)
 library(gtools)
 
 ####### ####### ####### ####### ####### ####### ####### ####### ####### ####### 
-## LOAD THE GULFOOD EXHIBITOR 2018 DATA
+## LOAD THE 2018 DATA
 exhData <- fread("./dta/2018exh.csv", colClasses = "character")
 exh <- setDT(exhData)
 str(exh)
@@ -45,7 +45,7 @@ exh <- setDT(exh[naCount < 5, ]) # remove rows that has > 4 entries
 exh[is.na(exh)] <- ""   # replace NAs with blanks
 
 ####### ####### ####### ####### ####### ####### ####### ####### ####### ####### 
-## LOAD THE GULFOOD 2017 VISITOR DATA
+## LOAD THE 2017 DATA
 visData <- fread("./dta/2017vis.csv", colClasses = "character")
 vis <- setDT(visData)
 str(vis)
