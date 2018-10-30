@@ -2,7 +2,7 @@
 ## DATE : 10/16/2017
 ## AUTHOR  : GREJELL B. SEGURA
 
-## THIS SCRIPT WILL PREPARE THE DATA FOR DATA ANALYSIS OF BIG 5 2016
+## THIS SCRIPT WILL PREPARE THE DATA FOR DATA ANALYSIS
 
 ## Part 1 ##
 rm(list = ls())
@@ -22,11 +22,11 @@ regionData[] <- lapply(regionData, function(x) tolower(x))
 #codeData <- read.csv2("./Source Codes.csv", sep = ",", na.strings = c(" ", ""))  ### data for codes
 
 
-dta_1 <- read.csv2("./dta/BIG5 ATD 2016.csv", sep = ",", na.strings = c(" ", ""))  ### data for attended
+dta_1 <- read.csv2("./dta/data1.csv", sep = ",", na.strings = c(" ", ""))  ### data for attended
 dta_1$label <- 1
 dta_1 <- dta_1[dta_1$Show.Registered.For == "BIG]",]
 
-dta_2 <- read.csv2("./dta/BIG5 NS 2016.csv", sep = ",", na.strings = c(" ", ""))  ### data for no shows
+dta_2 <- read.csv2("./dta/data2.csv", sep = ",", na.strings = c(" ", ""))  ### data for no shows
 dta_2$label <- 0
 dta_2 <- dta_2[dta_2$Show.Registered.For == "BIG]",]
 
@@ -82,13 +82,13 @@ dta_3[, c("Date", "Time", "am.pm") := tstrsplit(Date.Created, " ", fixed = TRUE)
 dta_3$Date <- dmy(dta_3$Date)
 
 dta_clean <- dta_3[, c(1,2,3,4,5,6,9,10,11,12,13)]
-write.csv(dta_clean, "./dta/big5_cleanData.csv", row.names = FALSE)
+write.csv(dta_clean, "./dta/big_cleanData.csv", row.names = FALSE)
 ##############################################################################################################
 
 ## Part 2 ##
 rm(list = ls()) ## clear the memory
 
-codeData <- read.csv2("./dta/BIG5 CODES 2016.csv", sep = ",", na.strings = c(" ", ""))  ### data for codes
+codeData <- read.csv2("./dta/codes.csv", sep = ",", na.strings = c(" ", ""))  ### data for codes
 codeData[] <- lapply(codeData, function(x) tolower(x))
 codeData[] <- lapply(codeData, function(x) gsub(" ", ".", x))
 codeData[] <- lapply(codeData, function(x) gsub("[^A-z0-9]", "", x))
@@ -102,7 +102,7 @@ codeData <- codeData[, -3]
 
 names(codeData) <- c("value", "value.1")
 
-dtaMiningRaw <- read.csv2("./dta/big5_cleanData.csv", sep = ",", na.strings = c(" ", ""))  ### data for codes
+dtaMiningRaw <- read.csv2("./dta/big_cleanData.csv", sep = ",", na.strings = c(" ", ""))  ### data for codes
 dtaMining <- setDT(dtaMiningRaw)
 
 # remove unwanted features
