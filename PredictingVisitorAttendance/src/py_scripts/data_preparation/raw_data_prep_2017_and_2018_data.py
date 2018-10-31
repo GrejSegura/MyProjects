@@ -7,7 +7,7 @@ import os
 random.seed(23)
 
 ## set the directory
-os.chdir(r'C:\Users\Grejell\AnacondaProjects\GulfoodDataMining')
+os.chdir(r'C:\Users\Grejell\AnacondaProjects\DataMining')
 
 # part 1
 # ---------------------------------------------------------------------------#

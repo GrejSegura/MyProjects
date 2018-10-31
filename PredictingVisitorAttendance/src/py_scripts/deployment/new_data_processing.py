@@ -11,7 +11,7 @@ import pickle
 random.seed(23)
 
 ## set the directory
-os.chdir(r'C:\Users\Grejell\AnacondaProjects\GulfoodDataMining')
+os.chdir(r'C:\Users\Grejell\AnacondaProjects\DataMining')
 
 ## load data
 newData = pd.read_csv(r".\data\for_prediction\resp2018.csv", engine = "python")

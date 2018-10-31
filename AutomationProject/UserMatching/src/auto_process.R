@@ -20,7 +20,7 @@ library(tidyverse)
 library(data.table)
 
 
-## LOAD THE DBMS DATA
+## LOAD THE REFERENCE DATA
 dbData_1 <- read.csv("./dta/inputData.csv", sep = ",")
 dbData_1 <- setDT(dbData_1)
 
@@ -37,7 +37,7 @@ dbData_2[grepll == TRUE, attended := "Yes"]
 dbData_2[grepll == FALSE, attended := "No"]
 dbData_2 <- dbData_2[, c("name", "surname", "company", "position", "email", "id", "attended")]
 
-## LOAD AND PROCESS ACQUISITIONS DATA
+## LOAD AND PROCESS MAIN DATA 1
 igData_1a <- fread("./dta/input_1Data.csv", sep = ",")
 igData_1b <- igData_1a[, c("name", "surname", "company", "position", "email")]  ## RETAIN ONLY c("name", "surname", "company", "position", "email")
 igData_1b[] <- lapply(igData_1b, as.character)
@@ -47,7 +47,7 @@ igData_1b[] <- lapply(igData_1b, tolower)
 igData_1b$source <- "acquisition"
 
 
-## LOAD AND PROCESS ALLOCATIONS DATA
+## LOAD AND PROCESS MAIN DATA 2
 igData_2a <- fread("./dta/input_2Data.csv", sep = ",")
 igData_2b <- igData_2a[, c("name", "surname", "company", "position", "email")]  ## RETAIN ONLY c("name", "surname", "company", "position", "email")
 igData_2b[] <- lapply(igData_2b, as.character)
